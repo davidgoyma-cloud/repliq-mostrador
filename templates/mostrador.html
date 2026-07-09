@@ -82,9 +82,9 @@
     {% if top_margen %}
     <div class="bg-white rounded-2xl border-2 border-brand-200 shadow-sm p-5">
       <h2 class="font-bold text-slate-800 mb-1 flex items-center gap-2">
-        <i data-lucide="coins" class="w-4 h-4 text-brand-600"></i> Los que más margen dejan
+        <i data-lucide="coins" class="w-4 h-4 text-brand-600"></i> Los que más euros dejan
       </h2>
-      <p class="text-xs text-slate-400 mb-3">Ofrécelos cuando encaje — son los que más rentabilidad dejan.</p>
+      <p class="text-xs text-slate-400 mb-3">Ordenados por <b>calidad de euro</b> (PVP − coste) — los que más € dejan por venta. Ofrécelos cuando encaje.</p>
       <div class="max-h-72 overflow-y-auto">
         <table class="w-full text-left text-sm">
           <thead>
@@ -92,6 +92,7 @@
               <th class="pb-2 font-medium">CN</th>
               <th class="pb-2 font-medium">Producto</th>
               <th class="pb-2 font-medium">Categoría</th>
+              <th class="pb-2 font-medium text-right">€/ud</th>
               <th class="pb-2 font-medium text-right">Margen</th>
               <th class="pb-2 font-medium text-right">PVP</th>
             </tr>
@@ -102,7 +103,8 @@
               <td class="py-2 text-slate-400 font-mono text-xs">{{ p.cn }}</td>
               <td class="py-2 text-slate-800">{{ p.producto }}</td>
               <td class="py-2 text-slate-500">{{ p.categoria }}</td>
-              <td class="py-2 text-right"><span class="text-brand-700 font-bold">{{ p.margen }}%</span></td>
+              <td class="py-2 text-right"><span class="text-brand-700 font-bold">{{ '%.2f'|format(p.euro) }} €</span></td>
+              <td class="py-2 text-right text-slate-500">{{ p.margen }}%</td>
               <td class="py-2 text-right text-slate-600">{{ '%.2f'|format(p.pvp) }} €</td>
             </tr>
             {% endfor %}
