@@ -1,101 +1,5 @@
 [
   {
-    "cn": "100122",
-    "producto": "SILLA RUEDAS R300 ALUMINIO MOBICLINIC PIRAMIDE",
-    "pvp": 225.0,
-    "euro": 113.65,
-    "margen": 51,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "105929",
-    "producto": "ANDADOR INVICTO ROJO RUEDAS 360",
-    "pvp": 234.9,
-    "euro": 109.07,
-    "margen": 46,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "002135",
-    "producto": "BONO 4 SESIONES NUTRICION",
-    "pvp": 85.0,
-    "euro": 84.99,
-    "margen": 100,
-    "categoria": "Servicios Profesionales"
-  },
-  {
-    "cn": "002786",
-    "producto": "ANDADOR ROLLATOR CON FRENOS AZUL/ROJO",
-    "pvp": 145.0,
-    "euro": 80.46,
-    "margen": 55,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "002047",
-    "producto": "TEST EPIGENETICA",
-    "pvp": 160.0,
-    "euro": 80.0,
-    "margen": 50,
-    "categoria": "Servicios Profesionales"
-  },
-  {
-    "cn": "192217",
-    "producto": "ANDADOR ROLLATOR ROJO FRENO POR PRESION  MOBIC",
-    "pvp": 135.0,
-    "euro": 74.9,
-    "margen": 55,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "010541",
-    "producto": "BARANDILLA PLEG A4005  PAR",
-    "pvp": 240.0,
-    "euro": 73.38,
-    "margen": 31,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "209279",
-    "producto": "MONITOR DE PRESION ARTERIAL AUTOMATICO DE BRAZO",
-    "pvp": 179.9,
-    "euro": 72.77,
-    "margen": 40,
-    "categoria": "APARATOLOGIA"
-  },
-  {
-    "cn": "101301",
-    "producto": "AD150/MOBIC PRIM ANDADOR ROJO AZUL CON FRENOS",
-    "pvp": 135.0,
-    "euro": 68.22,
-    "margen": 51,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "000728",
-    "producto": "CONSULTA NUTRICION PRIMERA CONSULTA",
-    "pvp": 60.0,
-    "euro": 59.99,
-    "margen": 100,
-    "categoria": "Servicios Profesionales"
-  },
-  {
-    "cn": "008883",
-    "producto": "TEST HELICOBACTER",
-    "pvp": 90.0,
-    "euro": 52.0,
-    "margen": 58,
-    "categoria": "Servicios Profesionales"
-  },
-  {
-    "cn": "046450",
-    "producto": "AYUDAS ELEVADOR WC C/REPOSABRAZOS 3 ALTURAS SMAR",
-    "pvp": 127.9,
-    "euro": 50.8,
-    "margen": 40,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
     "cn": "188130",
     "producto": "AVENE DERMABSOLU CONTORNO DE OJOS REJUVENECEDOR",
     "pvp": 49.9,
@@ -104,139 +8,11 @@
     "categoria": "Dermocosmetica ADULTOS"
   },
   {
-    "cn": "289569",
-    "producto": "OLISTIC NEXT PACK X3",
-    "pvp": 127.0,
-    "euro": 48.41,
-    "margen": 38,
-    "categoria": "NUTRICAPILAR"
-  },
-  {
-    "cn": "658210",
-    "producto": "NICOTINELL 21 MG/24 H 28 PARCHES TRANSDERMICOS 5",
-    "pvp": 124.48,
-    "euro": 47.09,
-    "margen": 38,
-    "categoria": "ESPECIALIDADES"
-  },
-  {
-    "cn": "160923",
-    "producto": "SPEEDICATH SONDA COMPACT HOMB NEL 30 CM",
-    "pvp": 154.9,
-    "euro": 46.56,
-    "margen": 30,
-    "categoria": "Efectos LIBRE"
-  },
-  {
-    "cn": "722441",
-    "producto": "ORLIDUNN 60 MG 120 CAPSULAS",
-    "pvp": 62.13,
-    "euro": 46.13,
-    "margen": 74,
-    "categoria": "Genericos"
-  },
-  {
-    "cn": "000009",
-    "producto": "VACUNAS",
-    "pvp": 349.68,
-    "euro": 43.64,
-    "margen": 12,
-    "categoria": "PVP>143,04 margen fijo"
-  },
-  {
-    "cn": "176661",
-    "producto": "SOUVENAID CAPPUCCINO 32X125ML",
-    "pvp": 135.0,
-    "euro": 42.32,
-    "margen": 31,
-    "categoria": "DIETOTERAPEUTICOS"
-  },
-  {
-    "cn": "185452",
-    "producto": "SENSILIS ORIGIN PRO EGF-5 SERUM 1 ENVASE 30 ML",
-    "pvp": 78.9,
-    "euro": 42.28,
-    "margen": 54,
-    "categoria": "Dermocosmetica ADULTOS"
-  },
-  {
-    "cn": "106217",
-    "producto": "COLCHON ANTIESCARAS ONIS EURO/MOBICL",
-    "pvp": 69.0,
-    "euro": 40.04,
-    "margen": 58,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "179397",
-    "producto": "FERTYBIOTIC HOMBRE 60 CAPSULAS",
-    "pvp": 115.5,
-    "euro": 38.3,
-    "margen": 33,
-    "categoria": "Dietetica"
-  },
-  {
-    "cn": "002742",
-    "producto": "SAGUYS BOTIN SRA NEGRO 20685 T.39",
-    "pvp": 125.5,
-    "euro": 37.92,
-    "margen": 30,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "002915",
-    "producto": "SANDALIA CERRADA SAGUY 20716 BEIGE",
-    "pvp": 109.0,
-    "euro": 37.82,
-    "margen": 35,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "183935",
-    "producto": "DAOSIN 90 TABLETAS",
-    "pvp": 110.9,
-    "euro": 37.06,
-    "margen": 33,
-    "categoria": "ESPECIALIDADES"
-  },
-  {
-    "cn": "176726",
-    "producto": "NUA NUAEPA 1200 MG 90 CAP.",
-    "pvp": 102.9,
-    "euro": 37.06,
-    "margen": 36,
-    "categoria": "Dietetica"
-  },
-  {
     "cn": "216348",
     "producto": "SVR AMPOULE CBD 30ML",
     "pvp": 36.5,
     "euro": 36.17,
     "margen": 99,
-    "categoria": "Dermocosmetica ADULTOS"
-  },
-  {
-    "cn": "002741",
-    "producto": "ZAPATO CALZAMEDI ORTO. 2094 NEGRO CABALLERO T.41",
-    "pvp": 119.5,
-    "euro": 36.06,
-    "margen": 30,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "002722",
-    "producto": "CALZAMEDI ORTOP. 2162-M TIRA TRASERA MARRON 42",
-    "pvp": 95.0,
-    "euro": 35.81,
-    "margen": 38,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "208619",
-    "producto": "SENSILIS ETERNALIST A.G.E. RETINOL SERUM 1 ENVAS",
-    "pvp": 57.5,
-    "euro": 34.59,
-    "margen": 60,
     "categoria": "Dermocosmetica ADULTOS"
   },
   {
@@ -248,124 +24,12 @@
     "categoria": "Dietetica"
   },
   {
-    "cn": "085341",
-    "producto": "MEDIVEN PLUS CARAMEL CCL1 TALLA 3",
-    "pvp": 79.9,
-    "euro": 33.29,
-    "margen": 42,
-    "categoria": "ORTO BAZAR PIES"
-  },
-  {
-    "cn": "002768",
-    "producto": "CALZAMEDI SEÑORA 0817 NEGRO T.39",
-    "pvp": 110.0,
-    "euro": 33.23,
-    "margen": 30,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "205637",
-    "producto": "OVOSICARE PROFIV 14 SOBRES",
-    "pvp": 94.5,
-    "euro": 32.12,
-    "margen": 34,
-    "categoria": "Dietetica"
-  },
-  {
-    "cn": "505302",
-    "producto": "GLUCERNA ADVANCE 1.6 - 30 BOTELLAS 220 ML MULTIS",
-    "pvp": 278.73,
-    "euro": 31.82,
-    "margen": 11,
-    "categoria": "DIETOTERAPEUTICOS"
-  },
-  {
-    "cn": "000774",
-    "producto": "F1 ISO 2KG VAINILLA CANELA",
-    "pvp": 81.95,
-    "euro": 31.44,
-    "margen": 38,
-    "categoria": "NUTRI DEPORTIVA"
-  },
-  {
-    "cn": "002908",
-    "producto": "CALZAMEDI BIO CONFORT 0825 KAKI T. 36",
-    "pvp": 96.5,
-    "euro": 31.0,
-    "margen": 32,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "002779",
-    "producto": "SAGUYS 2147 CUERO DEPORTIVO CORDON MARRON T. 42",
-    "pvp": 120.0,
-    "euro": 30.99,
-    "margen": 26,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "505172",
-    "producto": "ENSURE PLUS ADVANCE 30 BOTELLAS 220 ML SABOR PLA",
-    "pvp": 167.62,
-    "euro": 30.8,
-    "margen": 18,
-    "categoria": "ESPECIALIDADES"
-  },
-  {
     "cn": "201928",
     "producto": "SENSILIS ETERNALIST A.G.E. SERUM AI 1 ENVASE 30",
     "pvp": 53.5,
     "euro": 30.59,
     "margen": 57,
     "categoria": "Dermocosmetica ADULTOS"
-  },
-  {
-    "cn": "259846",
-    "producto": "ORTOPEDICO CABALLERO TIRA TRASERO NEGRO 42",
-    "pvp": 89.0,
-    "euro": 30.57,
-    "margen": 34,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "000882",
-    "producto": "TEST DE SIBO",
-    "pvp": 90.0,
-    "euro": 30.5,
-    "margen": 34,
-    "categoria": "NUTRI ADELGAZAMIENTO"
-  },
-  {
-    "cn": "002744",
-    "producto": "PACK ENDOCARE RET+AGE BARRIER",
-    "pvp": 85.9,
-    "euro": 30.3,
-    "margen": 35,
-    "categoria": "Dermocosmetica ADULTOS"
-  },
-  {
-    "cn": "504869",
-    "producto": "DELICAL HP HC EDULCOREE 24 BOTELLAS 200 ML SABOR",
-    "pvp": 233.15,
-    "euro": 30.27,
-    "margen": 13,
-    "categoria": "ESPECIALIDADES"
-  },
-  {
-    "cn": "100732",
-    "producto": "FJ201 TXL LUMBACK FRESH FAJA LUMBOSACRA",
-    "pvp": 59.9,
-    "euro": 30.24,
-    "margen": 50,
-    "categoria": "ORTOPEDIA AYUDAS"
-  },
-  {
-    "cn": "013154",
-    "producto": "CONDROVET FORCE HA 120 COM",
-    "pvp": 86.9,
-    "euro": 30.22,
-    "margen": 35,
-    "categoria": "VET DIETETICA"
   },
   {
     "cn": "204368",
@@ -376,24 +40,16 @@
     "categoria": "Efectos LIBRE"
   },
   {
-    "cn": "002571",
-    "producto": "PACK ENDO TENSAGE NOUR CREAM + RENEWAL",
-    "pvp": 87.9,
-    "euro": 29.95,
-    "margen": 34,
-    "categoria": "Dermocosmetica ADULTOS"
-  },
-  {
-    "cn": "184565",
-    "producto": "MOLLER'S DOBBEL",
+    "cn": "209132",
+    "producto": "MOLLERS OMEGA 3 CORAZON 80 COMP",
     "pvp": 29.9,
     "euro": 29.89,
     "margen": 100,
     "categoria": "COLESTEROL OMEGAS"
   },
   {
-    "cn": "209132",
-    "producto": "MOLLERS OMEGA 3 CORAZON 80 COMP",
+    "cn": "184565",
+    "producto": "MOLLER'S DOBBEL",
     "pvp": 29.9,
     "euro": 29.89,
     "margen": 100,
@@ -408,38 +64,6 @@
     "categoria": "ORTO ARTICULACIONES"
   },
   {
-    "cn": "002902",
-    "producto": "CALZAMEDI BIO SEÑORA AZUL 825 T. 39",
-    "pvp": 94.5,
-    "euro": 29.0,
-    "margen": 31,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "002888",
-    "producto": "SAGUYS CALZADO CONF. SRA. 20725 VERDE T.37",
-    "pvp": 94.5,
-    "euro": 29.0,
-    "margen": 31,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "002880",
-    "producto": "CALZAMEDI BIO CONFORT 0825 KAKI T. 38",
-    "pvp": 94.5,
-    "euro": 29.0,
-    "margen": 31,
-    "categoria": "ZAPATOS"
-  },
-  {
-    "cn": "031425",
-    "producto": "CONDROCARE 90 COMP VET",
-    "pvp": 79.9,
-    "euro": 28.96,
-    "margen": 36,
-    "categoria": "VET DIETETICA"
-  },
-  {
     "cn": "102961",
     "producto": "TABURETE MOBICLINIC DUCHA SIN RESPALDO SAN FERMI",
     "pvp": 49.9,
@@ -448,35 +72,1299 @@
     "categoria": "ORTOPEDIA AYUDAS"
   },
   {
-    "cn": "693199",
-    "producto": "REGAINE 50 MG/G ESPUMA CUTANEA 3 TUBOS 60 G",
-    "pvp": 70.8,
-    "euro": 28.64,
-    "margen": 40,
-    "categoria": "EFP CAPILAR"
+    "cn": "000469",
+    "producto": "ZAPATILLA SRA AZUL 36 3074",
+    "pvp": 55.0,
+    "euro": 27.36,
+    "margen": 50,
+    "categoria": "ZAPATOS"
   },
   {
-    "cn": "191654",
-    "producto": "RODILLERA ELASTICA ROTULA ABIERTA CON FLEJES LAT",
-    "pvp": 55.9,
-    "euro": 28.3,
-    "margen": 51,
-    "categoria": "ORTO ARTICULACIONES"
+    "cn": "184884",
+    "producto": "MOLLER'S GOMINOLAS",
+    "pvp": 26.9,
+    "euro": 26.89,
+    "margen": 100,
+    "categoria": "DIETETICA INFANTIL"
   },
   {
-    "cn": "009930",
-    "producto": "ELECTROESTIMULA TENS/EMS EM-49",
-    "pvp": 80.0,
-    "euro": 28.27,
-    "margen": 35,
-    "categoria": "ORTO ARTICULACIONES"
+    "cn": "166715",
+    "producto": "VITAE VIBRACELL 1 ENVASE 100 ML",
+    "pvp": 24.9,
+    "euro": 24.88,
+    "margen": 100,
+    "categoria": "MULTIVITAMINAS"
   },
   {
-    "cn": "190953",
-    "producto": "FAJA LUMBOSACRA MODULAR FARMALASTIC 1 UNIDAD TAL",
-    "pvp": 59.0,
-    "euro": 28.14,
+    "cn": "265124",
+    "producto": "MEPENTOL LECHE 1 FRASCO 100 ML DOSIFICADOR",
+    "pvp": 52.9,
+    "euro": 24.47,
+    "margen": 46,
+    "categoria": "Higiene corporal"
+  },
+  {
+    "cn": "199178",
+    "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
+    "pvp": 49.9,
+    "euro": 24.22,
+    "margen": 49,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "199179",
+    "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
+    "pvp": 49.9,
+    "euro": 24.22,
+    "margen": 49,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "183929",
+    "producto": "OMEGA BASE LCN 60 CAPSULAS BLANDAS",
+    "pvp": 49.9,
+    "euro": 24.19,
+    "margen": 48,
+    "categoria": "NUTRI DEPORTIVA"
+  },
+  {
+    "cn": "205030",
+    "producto": "FAJA LUMBOSACRA SEMIRRIGIDA CRUCE LUMBAR PRIMSPI",
+    "pvp": 49.9,
+    "euro": 23.8,
     "margen": 48,
     "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "269142",
+    "producto": "FAJA LUMBOSACRA CLASICA FARMALASTIC 1 UNIDAD TAL",
+    "pvp": 49.9,
+    "euro": 23.58,
+    "margen": 47,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "269126",
+    "producto": "FAJA LUMBOSACRA CLASICA FARMALASTIC 1 UNIDAD TAL",
+    "pvp": 49.9,
+    "euro": 23.58,
+    "margen": 47,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "208620",
+    "producto": "SENSILIS SKIN D-PIGMENT AHA10 OVERNIGHT 1 ENVASE",
+    "pvp": 39.5,
+    "euro": 23.16,
+    "margen": 59,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "009783",
+    "producto": "COJIN COXIS 3016",
+    "pvp": 53.0,
+    "euro": 23.04,
+    "margen": 43,
+    "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "100324",
+    "producto": "FERULA INMOVILIZADORA PULGAR TMC150 IZDA TM",
+    "pvp": 42.95,
+    "euro": 22.96,
+    "margen": 53,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "725367",
+    "producto": "ULIPRISTAL AUROVITAS EFG 30 MG 1 COMPRIMIDO RECU",
+    "pvp": 31.03,
+    "euro": 22.95,
+    "margen": 74,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "153766",
+    "producto": "OLIOVITA 120 CAPSULAS",
+    "pvp": 52.9,
+    "euro": 22.7,
+    "margen": 43,
+    "categoria": "NUTRICOSMETICA"
+  },
+  {
+    "cn": "975342",
+    "producto": "NICORETTE 2 MG 105 CHICLES MEDICAMENTOSOS",
+    "pvp": 43.75,
+    "euro": 22.69,
+    "margen": 52,
+    "categoria": "EFP TABACO"
+  },
+  {
+    "cn": "199180",
+    "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
+    "pvp": 49.9,
+    "euro": 22.48,
+    "margen": 45,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "201514",
+    "producto": "FORCAPIL ANTICAIDA 90 COMPRIMIDOS PACK",
+    "pvp": 49.9,
+    "euro": 22.06,
+    "margen": 44,
+    "categoria": "NUTRICAPILAR"
+  },
+  {
+    "cn": "014588",
+    "producto": "ACTIVE FIBRA INTELIGENTE 270G",
+    "pvp": 51.9,
+    "euro": 21.96,
+    "margen": 42,
+    "categoria": "DIGESTIVO ANTIACIDO"
+  },
+  {
+    "cn": "209501",
+    "producto": "MÖLLER´S ARTICULACIONES 80 CP.",
+    "pvp": 21.9,
+    "euro": 21.89,
+    "margen": 100,
+    "categoria": "DOLOR TOPICO"
+  },
+  {
+    "cn": "212723",
+    "producto": "PLANTILLAS SMOU META PREMIUM 2 UNIDADES TALLA 43",
+    "pvp": 45.9,
+    "euro": 21.48,
+    "margen": 47,
+    "categoria": "ORTO BAZAR PIES"
+  },
+  {
+    "cn": "204108",
+    "producto": "OLISTIC MEN 28 VIALES 25 ML",
+    "pvp": 42.9,
+    "euro": 21.29,
+    "margen": 50,
+    "categoria": "NUTRICAPILAR"
+  },
+  {
+    "cn": "003632",
+    "producto": "SOLARAY MAGNESIUM L-THREONATE",
+    "pvp": 49.9,
+    "euro": 21.13,
+    "margen": 42,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "184311",
+    "producto": "UROMANN 30 SOBRES",
+    "pvp": 52.5,
+    "euro": 20.93,
+    "margen": 40,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "154088",
+    "producto": "FAJA ABDOMINAL MULTIBANDA MONOFILAMENTO FARMALAS",
+    "pvp": 36.9,
+    "euro": 20.91,
+    "margen": 57,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "187792",
+    "producto": "ARKOFLUIDO QUEMAGRASA 20 AMPOLLAS",
+    "pvp": 29.9,
+    "euro": 20.54,
+    "margen": 69,
+    "categoria": "ADELGAZAMIENTO"
+  },
+  {
+    "cn": "001937",
+    "producto": "COQ10 UBIQUINOL 100MG 30PERLAS SOLARAY",
+    "pvp": 46.95,
+    "euro": 20.21,
+    "margen": 43,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "223767",
+    "producto": "MAGNESIO L-THREONATO KAL 60 COMPRIMIDOS",
+    "pvp": 49.5,
+    "euro": 20.18,
+    "margen": 41,
+    "categoria": "DOLORF ORAL"
+  },
+  {
+    "cn": "215839",
+    "producto": "EUCERIN EPIGENETICS SERUM 30ML",
+    "pvp": 52.9,
+    "euro": 20.01,
+    "margen": 38,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "216670",
+    "producto": "OLISTIC NEXT WOMEN 28 VIALES 25 ML",
+    "pvp": 43.0,
+    "euro": 20.0,
+    "margen": 47,
+    "categoria": "NUTRICAPILAR"
+  },
+  {
+    "cn": "701866",
+    "producto": "LEVONORGESTREL AUROVITAS EFG 1,5 MG 1 COMPRIMIDO",
+    "pvp": 22.96,
+    "euro": 19.98,
+    "margen": 87,
+    "categoria": "EFP GINE INFECC ORINA"
+  },
+  {
+    "cn": "001256",
+    "producto": "PACK GOAH CABELLO 2+1 REGALO",
+    "pvp": 54.9,
+    "euro": 19.93,
+    "margen": 36,
+    "categoria": "NUTRICAPILAR"
+  },
+  {
+    "cn": "168768",
+    "producto": "EUCERIN ATOPICONTROL CREMA FORTE 1 ENVASE 40 ML",
+    "pvp": 19.9,
+    "euro": 19.9,
+    "margen": 100,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "003149",
+    "producto": "NUTRALIE TRANS RESVERATROL NAD 60 CAP",
+    "pvp": 34.9,
+    "euro": 19.74,
+    "margen": 57,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "197967",
+    "producto": "ESENTIAL MIST HUMIDIFICADOR DIFUSOR INTERSA",
+    "pvp": 36.9,
+    "euro": 19.59,
+    "margen": 53,
+    "categoria": "APARATOLOGIA"
+  },
+  {
+    "cn": "199191",
+    "producto": "TOBILLERA ACTIMOVE SPORT EDITION BANDAS CRUZADAS",
+    "pvp": 37.9,
+    "euro": 19.57,
+    "margen": 52,
+    "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "199021",
+    "producto": "NHCO AMINOHAIR 168 CAPSULAS",
+    "pvp": 42.9,
+    "euro": 19.51,
+    "margen": 45,
+    "categoria": "NUTRICAPILAR"
+  },
+  {
+    "cn": "665665",
+    "producto": "HARPAGOFITO ARKOPHARMA 435 MG 168 CAPSULAS",
+    "pvp": 30.38,
+    "euro": 19.42,
+    "margen": 64,
+    "categoria": "EFP DOLOR ORAL"
+  },
+  {
+    "cn": "188312",
+    "producto": "AVENE DERMABSOLU BALSAMO NOCHE REGENERADOR 1 ENV",
+    "pvp": 54.9,
+    "euro": 19.37,
+    "margen": 35,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "206676",
+    "producto": "SCHOLL EXPERTCARE LIMA ELECTRONICA PARA PIES 2 E",
+    "pvp": 45.0,
+    "euro": 19.33,
+    "margen": 43,
+    "categoria": "Pies"
+  },
+  {
+    "cn": "172401",
+    "producto": "ENDOCARE CELLAGE CREAM 1 ENVASE 50 ML",
+    "pvp": 54.9,
+    "euro": 19.31,
+    "margen": 35,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "172402",
+    "producto": "ENDOCARE CELLAGE GELCREM 50 ML",
+    "pvp": 54.9,
+    "euro": 19.31,
+    "margen": 35,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "190960",
+    "producto": "RODILLERA FARMALASTIC ADVANCE TECH ALL IN ONE 1",
+    "pvp": 39.9,
+    "euro": 19.3,
+    "margen": 48,
+    "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "002271",
+    "producto": "PURE THYROID SUPPORT COMPLEX 120 CASULAS",
+    "pvp": 52.9,
+    "euro": 19.27,
+    "margen": 36,
+    "categoria": "MULTIVITAMINAS"
+  },
+  {
+    "cn": "176108",
+    "producto": "MANOSAR 30 SOBRES",
+    "pvp": 54.9,
+    "euro": 19.22,
+    "margen": 35,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "001938",
+    "producto": "QUERCETIN 500MG 60COMP",
+    "pvp": 37.5,
+    "euro": 19.12,
+    "margen": 51,
+    "categoria": "FITOTERAPIA"
+  },
+  {
+    "cn": "187089",
+    "producto": "EUCERIN SUN PROTECTION 50 SPRAY TRANSPARENTE DRY",
+    "pvp": 18.9,
+    "euro": 18.89,
+    "margen": 100,
+    "categoria": "SOLAR CUERPO"
+  },
+  {
+    "cn": "165277",
+    "producto": "MUÑEQUERA FERULA PALMAR MEDILAST TRAUMA PLUS IZD",
+    "pvp": 17.9,
+    "euro": 17.89,
+    "margen": 100,
+    "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "207838",
+    "producto": "SENSILIS BODY SPRAY SPF 50 DRY TOUCH 1 ENVASE 20",
+    "pvp": 25.9,
+    "euro": 17.65,
+    "margen": 68,
+    "categoria": "SOLAR CUERPO"
+  },
+  {
+    "cn": "204322",
+    "producto": "MASCARA PROT. PALPEBRAL TOPIALYSE SVR 9 ML",
+    "pvp": 17.5,
+    "euro": 17.38,
+    "margen": 99,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "701374",
+    "producto": "LEVONORGESTREL SANDOZ EFG 1,5 MG 1 COMPRIMIDO",
+    "pvp": 22.64,
+    "euro": 17.08,
+    "margen": 75,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "160255",
+    "producto": "ESI MELATONIN PURA 1,9 MG 60 TABLETAS",
+    "pvp": 14.9,
+    "euro": 14.8,
+    "margen": 99,
+    "categoria": "SUEÑO Y ANIMO"
+  },
+  {
+    "cn": "168178",
+    "producto": "OFTAN MACULA 90 CAPS",
+    "pvp": 17.9,
+    "euro": 14.5,
+    "margen": 81,
+    "categoria": "NUTRIOPTICA"
+  },
+  {
+    "cn": "176080",
+    "producto": "PRODUO STOP 10 SOBRES",
+    "pvp": 16.9,
+    "euro": 13.56,
+    "margen": 80,
+    "categoria": "INMUN PROBIOTICOS"
+  },
+  {
+    "cn": "180300",
+    "producto": "SVR DESMAQUILLANTE PALPEBRAL TOPIALYSE 125 M",
+    "pvp": 12.9,
+    "euro": 12.81,
+    "margen": 99,
+    "categoria": "HIGIENE FACIAL"
+  },
+  {
+    "cn": "729756",
+    "producto": "ALMAGATO STADAPHARM 500 MG 48 COMPRIMIDOS MASTIC",
+    "pvp": 11.54,
+    "euro": 11.47,
+    "margen": 99,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "733063",
+    "producto": "OLFEN FORTE 23,2 MG/G GEL CUTANEO 1 TUBO 100 G",
+    "pvp": 15.95,
+    "euro": 11.1,
+    "margen": 70,
+    "categoria": "EFP DOLOR TOPICO"
+  },
+  {
+    "cn": "704070",
+    "producto": "BRONCHOSTOP ANTITUSIVO Y EXPECTORANTE SOLUCION O",
+    "pvp": 14.99,
+    "euro": 10.98,
+    "margen": 73,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "213720",
+    "producto": "SUPRADYN RELAX 30 CAPSULAS",
+    "pvp": 14.9,
+    "euro": 10.88,
+    "margen": 73,
+    "categoria": "MULTIVITAMINAS"
+  },
+  {
+    "cn": "927210",
+    "producto": "HURRICAINE SPRAY 200 MG/ML SOLUCION PARA PULVERI",
+    "pvp": 14.99,
+    "euro": 10.44,
+    "margen": 70,
+    "categoria": "EFP BUCAL"
+  },
+  {
+    "cn": "771337",
+    "producto": "ILVICO 20 COMPRIMIDOS RECUBIERTOS",
+    "pvp": 14.47,
+    "euro": 10.26,
+    "margen": 71,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "677204",
+    "producto": "ILVIGRIP EXPECTORANTE 10 SOBRES POLVO PARA SOLUC",
+    "pvp": 14.47,
+    "euro": 10.26,
+    "margen": 71,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "688547",
+    "producto": "DESLORATADINA RATIOPHARM EFG 5 MG 20 COMPRIMIDOS",
+    "pvp": 11.9,
+    "euro": 10.18,
+    "margen": 86,
+    "categoria": "EFP ALERGIA ORAL"
+  },
+  {
+    "cn": "244689",
+    "producto": "DEVOR OLOR POLVOS DESODORANTES",
+    "pvp": 9.9,
+    "euro": 9.9,
+    "margen": 100,
+    "categoria": "Pies"
+  },
+  {
+    "cn": "296665",
+    "producto": "DIENTE DE LEON ARKOCAPSULAS 250 MG 50 CAPSULAS",
+    "pvp": 9.9,
+    "euro": 9.89,
+    "margen": 100,
+    "categoria": "FITOTERAPIA"
+  },
+  {
+    "cn": "215878",
+    "producto": "VITAMINA D3 30 CAPSULAS",
+    "pvp": 9.9,
+    "euro": 9.81,
+    "margen": 99,
+    "categoria": "Dietetica"
+  },
+  {
+    "cn": "720532",
+    "producto": "BRONCHOGRIP 10 SOBRES POLVO PARA SOLUCION ORAL",
+    "pvp": 13.99,
+    "euro": 9.78,
+    "margen": 70,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "653982",
+    "producto": "EBASTINA TEVA GROUP EFG 20 MG 20 COMPRIMIDOS REC",
+    "pvp": 11.9,
+    "euro": 9.74,
+    "margen": 82,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "205570",
+    "producto": "BAÑOFTAL BLUE LIGHT PROTECT 1 FRASCO 10 ML MULTI",
+    "pvp": 9.8,
+    "euro": 9.69,
+    "margen": 99,
+    "categoria": "OJOS PATOLOGIA"
+  },
+  {
+    "cn": "211603",
+    "producto": "URGO FILMOGEL UÑAS FRAGILES FORTALECEDOR STICK E",
+    "pvp": 9.8,
+    "euro": 9.69,
+    "margen": 99,
+    "categoria": "MANOS"
+  },
+  {
+    "cn": "762343",
+    "producto": "NORMOGRIP ANTITUSIVO 10 SOBRES GRANULADO PARA SO",
+    "pvp": 11.55,
+    "euro": 9.31,
+    "margen": 81,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "716425",
+    "producto": "NORMOGRIP 10 SOBRES GRANULADO PARA SOLUCION ORAL",
+    "pvp": 11.55,
+    "euro": 9.23,
+    "margen": 80,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "689188",
+    "producto": "PHARMAGRIP TOS Y CONGESTION 10 SOBRES POLVO PARA",
+    "pvp": 12.85,
+    "euro": 8.97,
+    "margen": 70,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "202225",
+    "producto": "SALVELOX MED WOUND CLOSURE STRIPS 8 TIRAS DE SUT",
+    "pvp": 8.9,
+    "euro": 8.9,
+    "margen": 100,
+    "categoria": "BOTIQUIN"
+  },
+  {
+    "cn": "718695",
+    "producto": "NORMOGRIP 14 CAPSULAS",
+    "pvp": 10.99,
+    "euro": 8.79,
+    "margen": 80,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "779165",
+    "producto": "INISTON TOS 1,5 MG/ML JARABE 1 FRASCO 200 ML",
+    "pvp": 11.25,
+    "euro": 8.73,
+    "margen": 78,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "833343",
+    "producto": "PHARMAGRIP CONGESTION Y SECRECION NASAL 14 CAPSU",
+    "pvp": 12.35,
+    "euro": 8.4,
+    "margen": 68,
+    "categoria": "EFP GRIPE"
+  },
+  {
+    "cn": "715521",
+    "producto": "BRONCHOSTOP ANTITUSIVO Y EXPECTORANTE 20 PASTILL",
+    "pvp": 11.99,
+    "euro": 8.38,
+    "margen": 70,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "758032",
+    "producto": "LOPERAMIDA AUROVITAS 2 MG 20 CAPSULAS",
+    "pvp": 10.3,
+    "euro": 8.28,
+    "margen": 80,
+    "categoria": "EFP DIGEST DIARREA"
+  },
+  {
+    "cn": "691758",
+    "producto": "FORMULATUS 1,33 MG/ML JARABE 1 FRASCO 180 ML (SA",
+    "pvp": 11.02,
+    "euro": 8.21,
+    "margen": 75,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "691774",
+    "producto": "FORMULAEXPEC 13,33 MG/ML JARABE 1 FRASCO 180 ML",
+    "pvp": 11.02,
+    "euro": 8.21,
+    "margen": 75,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "706955",
+    "producto": "DERATIN COMPLEX 30 COMPRIMIDOS PARA CHUPAR (SABO",
+    "pvp": 10.05,
+    "euro": 8.03,
+    "margen": 80,
+    "categoria": "EFP GARGANTA"
+  },
+  {
+    "cn": "758625",
+    "producto": "BILASTINA STADAPHARM EFG 20 MG 10 COMPRIMIDOS",
+    "pvp": 10.04,
+    "euro": 8.02,
+    "margen": 80,
+    "categoria": "EFP ALERGIA ORAL"
+  },
+  {
+    "cn": "254555",
+    "producto": "SALVELOX PIMPLE GUARD 24PCS",
+    "pvp": 8.0,
+    "euro": 8.0,
+    "margen": 100,
+    "categoria": "Dermocosmetica ADULTOS"
+  },
+  {
+    "cn": "722321",
+    "producto": "MUCIBRON FORTE 6 MG/ML SOLUCION ORAL 1 FRASCO 25",
+    "pvp": 10.35,
+    "euro": 7.93,
+    "margen": 77,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "213534",
+    "producto": "NATURAL HEALING PADS",
+    "pvp": 7.9,
+    "euro": 7.89,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "103534",
+    "producto": "TEST EMBARAZO MEDIFLOIWER 1 UNIDAD",
+    "pvp": 7.9,
+    "euro": 7.89,
+    "margen": 100,
+    "categoria": "EMBARAZO"
+  },
+  {
+    "cn": "211883",
+    "producto": "HALLEY PICBALSAM INFANTIL 1 ROLL ON 12 ML",
+    "pvp": 7.9,
+    "euro": 7.86,
+    "margen": 99,
+    "categoria": "MOSQUITOS"
+  },
+  {
+    "cn": "161542",
+    "producto": "TERMOMETRO DIGITAL SUPER CIMA FLEXIBLE",
+    "pvp": 7.9,
+    "euro": 7.81,
+    "margen": 99,
+    "categoria": "Efectos LIBRE"
+  },
+  {
+    "cn": "174848",
+    "producto": "VISCLEAN TEST DE EMBARAZO 1 U",
+    "pvp": 7.0,
+    "euro": 6.99,
+    "margen": 100,
+    "categoria": "Efectos LIBRE"
+  },
+  {
+    "cn": "672499",
+    "producto": "CLOPERASTINA NORMON EFG 3,54 MG/ML SUSPENSION OR",
+    "pvp": 8.6,
+    "euro": 6.99,
+    "margen": 81,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "702674",
+    "producto": "SINUSVICKS 200 MG/30 MG 12 COMPRIMIDOS RECUBIERT",
+    "pvp": 9.99,
+    "euro": 6.98,
+    "margen": 70,
+    "categoria": "EFP DESCONGESTIVOS ORAL"
+  },
+  {
+    "cn": "718846",
+    "producto": "IBUPROFENO STADAPHARM EFG 400 MG 20 SOBRES SUSPE",
+    "pvp": 9.51,
+    "euro": 6.96,
+    "margen": 73,
+    "categoria": "EFP DOLOR ORAL"
+  },
+  {
+    "cn": "713470",
+    "producto": "FODONAL 3 MG 24 PASTILLAS PARA CHUPAR (SABOR MIE",
+    "pvp": 10.26,
+    "euro": 6.9,
+    "margen": 67,
+    "categoria": "EFP GARGANTA"
+  },
+  {
+    "cn": "712357",
+    "producto": "FODONAL 3 MG 24 PASTILLAS PARA CHUPAR (SABOR LIM",
+    "pvp": 10.26,
+    "euro": 6.9,
+    "margen": 67,
+    "categoria": "EFP GARGANTA"
+  },
+  {
+    "cn": "204730",
+    "producto": "FLUOCARIL CEPILLO INTERDENTAL",
+    "pvp": 6.9,
+    "euro": 6.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "204734",
+    "producto": "PAROGENCYL CEPILLO INTERDENTAL KIT INICIO",
+    "pvp": 6.9,
+    "euro": 6.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "186268",
+    "producto": "RATONCITO AMERICANO HERBI FEET 1 UNIDAD DERECHO",
+    "pvp": 9.9,
+    "euro": 6.74,
+    "margen": 68,
+    "categoria": "ORTO BAZAR PIES"
+  },
+  {
+    "cn": "186269",
+    "producto": "RATONCITO AMERICANO HERBI FEET IZQDO",
+    "pvp": 9.9,
+    "euro": 6.74,
+    "margen": 68,
+    "categoria": "ORTO BAZAR PIES"
+  },
+  {
+    "cn": "763072",
+    "producto": "NORMOTUS EXPECTORANTE 2 MG/ML + 20 MG/ML SOLUCIO",
+    "pvp": 9.15,
+    "euro": 6.7,
+    "margen": 73,
+    "categoria": "EFP TOS"
+  },
+  {
+    "cn": "320986",
+    "producto": "APOSAN TEST DE EMBARAZO",
+    "pvp": 7.9,
+    "euro": 6.65,
+    "margen": 84,
+    "categoria": "EMBARAZO"
+  },
+  {
+    "cn": "156010",
+    "producto": "TEST DE EMBARAZO EDDA PHARMA EMBARAZO 1 UNIDAD",
+    "pvp": 7.9,
+    "euro": 6.27,
+    "margen": 79,
+    "categoria": "EMBARAZO"
+  },
+  {
+    "cn": "002732",
+    "producto": "TEST EMBARAZO VPNATURA",
+    "pvp": 7.9,
+    "euro": 6.21,
+    "margen": 79,
+    "categoria": "EMBARAZO"
+  },
+  {
+    "cn": "157557",
+    "producto": "TEST DE EMBARAZO ENFA 1 U",
+    "pvp": 7.9,
+    "euro": 6.01,
+    "margen": 76,
+    "categoria": "Efectos LIBRE"
+  },
+  {
+    "cn": "673061",
+    "producto": "NEOSAYOMOL 20 MG/G CREMA 1 TUBO 30 G",
+    "pvp": 8.85,
+    "euro": 5.95,
+    "margen": 67,
+    "categoria": "EFP ALERGIA TOPICA"
+  },
+  {
+    "cn": "154659",
+    "producto": "SALVELOX CALLOS 57 MM X 19 MM 10 U",
+    "pvp": 5.9,
+    "euro": 5.9,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "150358",
+    "producto": "BLISTEX MED PLUS BALSAMO REPARADOR 7 G",
+    "pvp": 5.9,
+    "euro": 5.89,
+    "margen": 100,
+    "categoria": "LABIALES"
+  },
+  {
+    "cn": "339537",
+    "producto": "TAPONES OIDOS SILICONA NOTON AGUA INFANTIL",
+    "pvp": 5.9,
+    "euro": 5.89,
+    "margen": 100,
+    "categoria": "TAPONES OIDO"
+  },
+  {
+    "cn": "720919",
+    "producto": "OXIMETAZOLINA TECNIMEDE 0,5 MG/ML SOLUCION PARA",
+    "pvp": 6.62,
+    "euro": 5.73,
+    "margen": 87,
+    "categoria": "EFP DESCONGESTIVO NASAL"
+  },
+  {
+    "cn": "589008",
+    "producto": "DIPTRON FIPRONILO 50 MG SOLUCION SPOT-ON GATO",
+    "pvp": 7.9,
+    "euro": 5.61,
+    "margen": 71,
+    "categoria": "VET ANTIPARASITARIO"
+  },
+  {
+    "cn": "194897",
+    "producto": "SALVELOX MED BLISTER RESCUE EXTREME XL",
+    "pvp": 5.5,
+    "euro": 5.5,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "157554",
+    "producto": "SALVELOX PROTECTORES APOSITOS HIDROCOLOIDES 21 X",
+    "pvp": 5.5,
+    "euro": 5.49,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "190970",
+    "producto": "SALVELOXMED BLISTER RESCUE 5 U",
+    "pvp": 5.5,
+    "euro": 5.49,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "729755",
+    "producto": "ALMAGATO STADAPHARM 500 MG 24 COMPRIMIDOS MASTIC",
+    "pvp": 7.63,
+    "euro": 5.48,
+    "margen": 72,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "101425",
+    "producto": "ELECTRODOS ADHESIVOS 50X50 CM 4 UNIDADES",
+    "pvp": 7.9,
+    "euro": 5.33,
+    "margen": 67,
+    "categoria": "APARATOLOGIA"
+  },
+  {
+    "cn": "197418",
+    "producto": "FLUOCARIL JUNIOR 7-12 AÑOS GEL 50 ML BUBBLE",
+    "pvp": 6.9,
+    "euro": 5.31,
+    "margen": 77,
+    "categoria": "BUC-INFANTIL"
+  },
+  {
+    "cn": "196329",
+    "producto": "FLUOCARIL KIDS 0-6 AÑOS 1 ENVASE 50 ML SABOR FRE",
+    "pvp": 6.9,
+    "euro": 5.31,
+    "margen": 77,
+    "categoria": "BUC-INFANTIL"
+  },
+  {
+    "cn": "186749",
+    "producto": "FLUOCARIL JUNIOR 6-12 AÑOS 1 ENVASE 75 ML FRUTOS",
+    "pvp": 6.9,
+    "euro": 5.31,
+    "margen": 77,
+    "categoria": "BUC-INFANTIL"
+  },
+  {
+    "cn": "891457",
+    "producto": "NORMONASAL 0,5 MG/ML SOLUCION PARA PULVERIZACION",
+    "pvp": 6.45,
+    "euro": 5.16,
+    "margen": 80,
+    "categoria": "EFP DESCONGESTIVO NASAL"
+  },
+  {
+    "cn": "002621",
+    "producto": "CREMA HIDRATANTE ROSA MOSQUETA ENFA 200ML",
+    "pvp": 6.9,
+    "euro": 5.06,
+    "margen": 73,
+    "categoria": "CORPORAL"
+  },
+  {
+    "cn": "701637",
+    "producto": "CARMELOSA STADA 5 MG/ML COLIRIO EN SOLUCION 30 M",
+    "pvp": 6.88,
+    "euro": 5.04,
+    "margen": 73,
+    "categoria": "Genericos"
+  },
+  {
+    "cn": "758031",
+    "producto": "LOPERAMIDA AUROVITAS 2 MG 10 CAPSULAS",
+    "pvp": 6.24,
+    "euro": 4.93,
+    "margen": 79,
+    "categoria": "ESPECIALIDADES"
+  },
+  {
+    "cn": "211884",
+    "producto": "HALLEY BAMPY CALM 1 ROLL ON 12 ML",
+    "pvp": 6.9,
+    "euro": 4.9,
+    "margen": 71,
+    "categoria": "DERMO INFANTIL"
+  },
+  {
+    "cn": "204736",
+    "producto": "PAROGENCYL GINGI PRO INTERDENTAL RECAMBIO SUAVE",
+    "pvp": 4.9,
+    "euro": 4.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "204731",
+    "producto": "FLUOCARIL INTERDENTAL PRO RECAMBIO MEDIO",
+    "pvp": 4.9,
+    "euro": 4.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "204294",
+    "producto": "CEPILLO INTERDENTAL PAROGENCYL KIT INICIACION",
+    "pvp": 4.9,
+    "euro": 4.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "245027",
+    "producto": "SALVELOX POVIDONA YODADA 10% 125 ML",
+    "pvp": 4.9,
+    "euro": 4.84,
+    "margen": 99,
+    "categoria": "BOTIQUIN"
+  },
+  {
+    "cn": "190170",
+    "producto": "PHONAL NATURA PROPOLIS 24 PASTILLAS SABOR LIMON",
+    "pvp": 6.9,
+    "euro": 4.77,
+    "margen": 69,
+    "categoria": "CATARRO NATURAL"
+  },
+  {
+    "cn": "000877",
+    "producto": "DIFUSOR CITRONELA PURE 30 ML",
+    "pvp": 4.9,
+    "euro": 4.72,
+    "margen": 96,
+    "categoria": "MOSQUITOS"
+  },
+  {
+    "cn": "190171",
+    "producto": "PHONAL NATURA PROPOLIS 24 PASTILLAS SABOR MIEL",
+    "pvp": 6.9,
+    "euro": 4.63,
+    "margen": 67,
+    "categoria": "CATARRO NATURAL"
+  },
+  {
+    "cn": "170854",
+    "producto": "SALVELOX MED ANTIBACT COVER APOSITO ADHESIVO 5 A",
+    "pvp": 4.5,
+    "euro": 4.5,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "763350",
+    "producto": "IBUPROFENO AUROVITAS PHARMA EFG 400 MG 20 COMPRI",
+    "pvp": 5.31,
+    "euro": 4.24,
+    "margen": 80,
+    "categoria": "ESPECIALIDADES"
+  },
+  {
+    "cn": "756029",
+    "producto": "IBUPROFENO RAPID STADAPHARM 400 MG 20 CAPSULAS B",
+    "pvp": 5.68,
+    "euro": 4.16,
+    "margen": 73,
+    "categoria": "EFP DOLOR ORAL"
+  },
+  {
+    "cn": "198777",
+    "producto": "APOSAN BOTELLA ORINAL CABALLERO",
+    "pvp": 5.9,
+    "euro": 4.15,
+    "margen": 70,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "235846",
+    "producto": "SALVELOX CURA RAPID 12 APOSITO",
+    "pvp": 3.9,
+    "euro": 3.9,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "001507",
+    "producto": "COMPRESA ESTERIL MED. 5 PIEZAS 5X7.5 CM SALVELOX",
+    "pvp": 3.9,
+    "euro": 3.87,
+    "margen": 99,
+    "categoria": "BOTIQUIN"
+  },
+  {
+    "cn": "012579",
+    "producto": "APOSAN DYNAMIC CONTERA 17 MM",
+    "pvp": 4.9,
+    "euro": 3.75,
+    "margen": 77,
+    "categoria": "ORTOPEDIA AYUDAS"
+  },
+  {
+    "cn": "197789",
+    "producto": "GASAS DE TEJIDO SIN TEJER PARA BEBE 100 U",
+    "pvp": 4.9,
+    "euro": 3.51,
+    "margen": 72,
+    "categoria": "ACCESORIOS INFANTIL"
+  },
+  {
+    "cn": "374017",
+    "producto": "SALVELOX PLAST APOSITO ADHESIVO SURT T- GDE",
+    "pvp": 3.5,
+    "euro": 3.5,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "330582",
+    "producto": "VICHY DERCOS NUTRIENTS DETOX CHAMPU 1 ENVASE 50",
+    "pvp": 3.5,
+    "euro": 3.49,
+    "margen": 100,
+    "categoria": "HIGIENE CAPILAR"
+  },
+  {
+    "cn": "185163",
+    "producto": "SALVELOX APOSITO ADHESIVO ANIMALS 20 U",
+    "pvp": 3.5,
+    "euro": 3.46,
+    "margen": 99,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "220600",
+    "producto": "MUSSVITAL BOTANICS GEL BERGAMOTA 1 ENVASE 750 ML",
+    "pvp": 4.9,
+    "euro": 3.3,
+    "margen": 67,
+    "categoria": "Higiene corporal"
+  },
+  {
+    "cn": "216140",
+    "producto": "MUSSVITAL BOTANICS GEL DE BAÑO MONOI 1 ENVASE 75",
+    "pvp": 4.9,
+    "euro": 3.3,
+    "margen": 67,
+    "categoria": "Higiene corporal"
+  },
+  {
+    "cn": "342329",
+    "producto": "SALVEPED PROTETOR JUANETE OVAL 4 UNIDADESO",
+    "pvp": 3.9,
+    "euro": 3.14,
+    "margen": 81,
+    "categoria": "ORTO BAZAR PIES"
+  },
+  {
+    "cn": "303347",
+    "producto": "SALVEPED PARCHE DUREZAS 4 UNIDADESO",
+    "pvp": 3.9,
+    "euro": 3.14,
+    "margen": 81,
+    "categoria": "ORTO BAZAR PIES"
+  },
+  {
+    "cn": "724772",
+    "producto": "OMEPRAZOL STADAPHARM 20 MG 14 CAPSULAS GASTRORRE",
+    "pvp": 4.18,
+    "euro": 3.06,
+    "margen": 73,
+    "categoria": "EFP DIGEST ANTIACIDO"
+  },
+  {
+    "cn": "303354",
+    "producto": "PARCHES OJOS DE GALLO SALVEPED FIELTRO 9 U",
+    "pvp": 3.0,
+    "euro": 2.91,
+    "margen": 97,
+    "categoria": "Efectos LIBRE"
+  },
+  {
+    "cn": "195257",
+    "producto": "SALVELOX APOSITO ADHESIVO MY LITTLE PONY 20 UNID",
+    "pvp": 2.9,
+    "euro": 2.9,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "302451",
+    "producto": "CEPILLO INF JORDAN HELLO SMILE 6-9 AÑOS",
+    "pvp": 2.9,
+    "euro": 2.9,
+    "margen": 100,
+    "categoria": "BUC-CEPILLO MANUAL"
+  },
+  {
+    "cn": "302426",
+    "producto": "CEPILLO INFANTIL JORDAN BABY CLINIC 0-2 AÑOS",
+    "pvp": 2.9,
+    "euro": 2.9,
+    "margen": 100,
+    "categoria": "BUC-CEPILLO MANUAL"
+  },
+  {
+    "cn": "209079",
+    "producto": "SALVELOX APOSITO ADHESIVO POKEMON 20 TIRAS SURTI",
+    "pvp": 2.9,
+    "euro": 2.9,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "218096",
+    "producto": "SALVELOX APOSITO ADHESIVO BARBIE 12 TIRAS",
+    "pvp": 2.9,
+    "euro": 2.9,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "204295",
+    "producto": "CEPILLO INTERDENTAL S RECAMBIO PAROGENCYL 6 UN",
+    "pvp": 2.9,
+    "euro": 2.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES"
+  },
+  {
+    "cn": "368696",
+    "producto": "SALVELOX APOSITO ADHESIVO TELA 20 U",
+    "pvp": 2.9,
+    "euro": 2.89,
+    "margen": 100,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "001511",
+    "producto": "ESPARADRAPO PAPEL BEIGE CON DISPENSADOR 2.5X5",
+    "pvp": 2.9,
+    "euro": 2.78,
+    "margen": 96,
+    "categoria": "BOTIQUIN"
+  },
+  {
+    "cn": "730579",
+    "producto": "PARACETAMOL SANDOZ CARE EFG 1 G 10 COMPRIMIDOS",
+    "pvp": 3.95,
+    "euro": 2.7,
+    "margen": 68,
+    "categoria": "EFP"
+  },
+  {
+    "cn": "728603",
+    "producto": "PARACETAMOL SANDOZ CARE EFG 500 MG 20 COMPRIMIDO",
+    "pvp": 3.95,
+    "euro": 2.7,
+    "margen": 68,
+    "categoria": "EFP DOLOR ORAL"
+  },
+  {
+    "cn": "001515",
+    "producto": "ESPARADRAPO BEIGE 2.5X5 CM SALVELOXMED",
+    "pvp": 2.5,
+    "euro": 2.48,
+    "margen": 99,
+    "categoria": "BOTIQUIN"
+  },
+  {
+    "cn": "160306",
+    "producto": "SALVELOX SENSITIVE APOSITO ADHESIVO ALOE VERA VA",
+    "pvp": 2.5,
+    "euro": 2.46,
+    "margen": 99,
+    "categoria": "TIRITAS Y APOSITOS"
+  },
+  {
+    "cn": "101971",
+    "producto": "TEST GLUCOSA SANGRE CAPILAR",
+    "pvp": 3.0,
+    "euro": 2.3,
+    "margen": 77,
+    "categoria": "Servicios Profesionales"
+  },
+  {
+    "cn": "103138",
+    "producto": "LIDERTON TUBINET 5 VENDA TUBU PIERN MUSL PEQ 1M",
+    "pvp": 2.5,
+    "euro": 2.01,
+    "margen": 80,
+    "categoria": "ORTO ARTICULACIONES"
+  },
+  {
+    "cn": "209182",
+    "producto": "SALVELOX AQUA RESIST APOSITO ADHESIVO 20 APOSITO",
+    "pvp": 2.9,
+    "euro": 1.97,
+    "margen": 68,
+    "categoria": "TIRITAS Y APOSITOS"
   }
 ]
