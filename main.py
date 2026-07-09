@@ -9,8 +9,10 @@ Necesita la variable de entorno ANTHROPIC_API_KEY.
 
 from __future__ import annotations
 
+import html
 import json
 import os
+import re
 from pathlib import Path
 
 from fastapi import FastAPI, Form, Request
@@ -80,10 +82,13 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
         contexto = (
             "\n\nLista de productos de nuestra farmacia con lo que deja cada uno (€/ud = PVP "
             "− coste, y % de margen) y su ubicación física en la farmacia. Si alguno encaja "
-            "de forma clínicamente apropiada, priorízalo (primero los que más € dejan; NUNCA "
-            "fuerces algo que no aporte valor) e INCLUYE al citarlo su CN, la 'Calidad €' "
-            "(euros que deja), el 'Margen %' y, sutilmente, su ubicación (ej. 📍E5) si la "
-            "tienes: " + items)
+            "de forma clínicamente apropiada (NUNCA fuerces algo que no aporte valor). Al "
+            "citar un producto de la lista muestra sus datos SIEMPRE con este formato EXACTO "
+            "(negritas incluidas): «**NOMBRE PRODUCTO** · Calidad €: 5,04 € · Margen: 73% · "
+            "CN **701637** · 📍**E5**». Pon en NEGRITA el nombre, el CN y la ubicación (📍), y "
+            "usa literalmente 'Calidad €:' y 'Margen:'. Cuando des varias opciones para lo "
+            "mismo, SEÑALA cuál es **mejor en Calidad €** y cuál **mejor en Margen** para que "
+            "el farmacéutico elija lo que considere: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
@@ -116,12 +121,14 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
         contexto = (
             "\n\nLista de productos de nuestra farmacia con lo que deja cada uno (€/ud = PVP "
             "− coste, y % de margen) y su ubicación física. Cuando recomiendes, si en esta "
-            "lista hay algo clínicamente apropiado para el síntoma, priorízalo (primero los "
-            "que más € dejan) e incluye su CN, la 'Calidad €' (euros que deja), el "
-            "'Margen %' y, sutilmente, su ubicación (ej. 📍E5) si la tienes. Si para ese "
-            "síntoma NO hay nada apropiado en la lista, recomienda IGUALMENTE el producto de "
-            "venta libre habitual (sin inventar cifras de margen). NUNCA digas que la "
-            "farmacia no tiene nada: " + items)
+            "lista hay algo clínicamente apropiado para el síntoma, inclúyelo con este "
+            "formato EXACTO (negritas incluidas): «**NOMBRE PRODUCTO** · Calidad €: 5,04 € · "
+            "Margen: 73% · CN **701637** · 📍**E5**». Pon en NEGRITA el nombre, el CN y la "
+            "ubicación (📍), y usa literalmente 'Calidad €:' y 'Margen:'. Cuando des 2-3 "
+            "opciones, SEÑALA cuál es **mejor en Calidad €** y cuál **mejor en Margen** para "
+            "que el farmacéutico elija lo que considere. Si para ese síntoma NO hay nada "
+            "apropiado en la lista, recomienda IGUALMENTE el producto de venta libre habitual "
+            "(sin inventar cifras de margen). NUNCA digas que la farmacia no tiene nada: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
@@ -131,21 +138,36 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
             "Eres farmacéutico en España atendiendo en el mostrador. Ante un SÍNTOMA o "
             "patología LEVE de indicación farmacéutica, recomiendas productos SIN receta "
             "(medicamentos EFP/publicitarios y parafarmacia) apropiados para aliviarlo. "
-            "Para cada necesidad ofrece entre 2 y 3 OPCIONES alternativas válidas, "
-            "ORDENADAS de MAYOR a MENOR CALIDAD DE EURO (euros que deja la venta = PVP − "
-            "coste; primero la que más € deja), indicando los €/ud y el % (y el CN) cuando "
-            "lo tengas de la lista. Recomienda SIEMPRE algo apropiado, aunque no esté en la "
-            "lista de margen; nunca digas que no hay producto. Solo "
+            "Para cada necesidad ofrece entre 2 y 3 OPCIONES alternativas válidas y, entre "
+            "ellas, SEÑALA cuál es la mejor en Calidad € y cuál la mejor en Margen (el "
+            "farmacéutico elige la que considere). Recomienda SIEMPRE algo apropiado, aunque "
+            "no esté en la lista de margen; nunca digas que no hay producto. Solo "
             "productos clínicamente apropiados; nunca fuerces algo inadecuado. "
             "SIEMPRE de forma responsable: al final indica brevemente los SIGNOS DE ALARMA por "
             "los que hay que DERIVAR AL MÉDICO y no automedicar. Responde en español, en "
-            "viñetas cortas: producto (€/ud · CN) -> para qué / cómo se usa."
+            "viñetas cortas, con el nombre, CN y ubicación en NEGRITA: **NOMBRE** · Calidad €: "
+            "X € · Margen: Y% · CN **ZZZ** · 📍**SIT** -> para qué / cómo se usa."
         ),
         messages=[{"role": "user", "content":
                    f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
                    "receta), priorizando el margen?" + contexto}],
     )
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
+
+
+def _fmt(texto: str | None) -> str | None:
+    """Convierte el markdown que devuelve la IA en HTML sencillo y seguro."""
+    if not texto:
+        return texto
+    out = html.escape(texto)
+    # **negrita** -> <strong>
+    out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
+    # Encabezados ## -> línea en negrita (sin las almohadillas)
+    lineas = []
+    for ln in out.split("\n"):
+        m = re.match(r"\s*#{1,6}\s+(.*)", ln)
+        lineas.append(f'<strong class="text-brand-800">{m.group(1)}</strong>' if m else ln)
+    return "\n".join(lineas)
 
 
 def _ctx(**kw):
@@ -182,7 +204,7 @@ def cruzada(request: Request, producto: str = Form("")):
             except Exception as exc:  # noqa: BLE001
                 error = "No se pudo generar: " + str(exc)[:200]
     return templates.TemplateResponse(request, "mostrador.html",
-                                      _ctx(reco=reco, error=error, producto=prod))
+                                      _ctx(reco=_fmt(reco), error=error, producto=prod))
 
 
 @app.post("/sintoma", response_class=HTMLResponse)
@@ -200,4 +222,4 @@ def sintoma(request: Request, sintoma: str = Form("")):
         except Exception as exc:  # noqa: BLE001
             error = "No se pudo generar: " + str(exc)[:200]
     return templates.TemplateResponse(request, "mostrador.html",
-                                      _ctx(reco_sint=reco, error_sint=error, sintoma=sint))
+                                      _ctx(reco_sint=_fmt(reco), error_sint=error, sintoma=sint))

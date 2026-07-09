@@ -46,7 +46,7 @@
         <div class="flex items-center gap-2 mb-3 text-brand-700 font-bold text-lg">
           <i data-lucide="stethoscope" class="w-5 h-5"></i> Para "{{ sintoma }}":
         </div>
-        <div class="text-base text-slate-700 whitespace-pre-line leading-relaxed">{{ reco_sint }}</div>
+        <div class="text-base text-slate-700 whitespace-pre-line leading-relaxed">{{ reco_sint | safe }}</div>
       </div>
       {% endif %}
     </div>
@@ -75,7 +75,7 @@
       <div class="flex items-center gap-2 mb-3 text-brand-700 font-bold text-lg">
         <i data-lucide="sparkles" class="w-5 h-5"></i> Con "{{ producto }}" ofrece:
       </div>
-      <div class="text-base text-slate-700 whitespace-pre-line leading-relaxed">{{ reco }}</div>
+      <div class="text-base text-slate-700 whitespace-pre-line leading-relaxed">{{ reco | safe }}</div>
     </div>
     {% endif %}
 
@@ -84,28 +84,32 @@
       <h2 class="font-bold text-slate-800 mb-1 flex items-center gap-2">
         <i data-lucide="coins" class="w-4 h-4 text-brand-600"></i> Los que más euros dejan
       </h2>
-      <p class="text-xs text-slate-400 mb-3">Ordenados por <b>calidad de euro</b> (PVP − coste) — los que más € dejan por venta. Ofrécelos cuando encaje.</p>
+      <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs mb-3">
+        <span class="inline-flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded bg-brand-100 border border-brand-400"></span> <b class="text-brand-700">Calidad €</b> = euros que deja (PVP − coste)</span>
+        <span class="inline-flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded bg-amber-100 border border-amber-400"></span> <b class="text-amber-700">Margen</b> = % de beneficio</span>
+        <span class="text-slate-400">· ordenados por Calidad €</span>
+      </div>
       <div class="max-h-72 overflow-y-auto">
         <table class="w-full text-left text-sm">
           <thead>
-            <tr class="text-[11px] uppercase tracking-wider text-slate-400 border-b border-slate-100 sticky top-0 bg-white">
-              <th class="pb-2 font-medium">CN</th>
-              <th class="pb-2 font-medium">Producto</th>
-              <th class="pb-2 font-medium">Categoría</th>
-              <th class="pb-2 font-medium text-right">€/ud</th>
-              <th class="pb-2 font-medium text-right">Margen</th>
-              <th class="pb-2 font-medium text-right">PVP</th>
+            <tr class="text-[11px] uppercase tracking-wider border-b border-slate-100 sticky top-0 bg-white">
+              <th class="pb-2 font-medium text-slate-400">CN</th>
+              <th class="pb-2 font-medium text-slate-400">Producto</th>
+              <th class="pb-2 font-medium text-slate-400">Categoría</th>
+              <th class="pb-2 font-bold text-right text-brand-700">Calidad €</th>
+              <th class="pb-2 font-bold text-right text-amber-600">Margen</th>
+              <th class="pb-2 font-medium text-right text-slate-400">PVP</th>
             </tr>
           </thead>
           <tbody>
             {% for p in top_margen %}
             <tr class="border-b border-slate-50">
               <td class="py-2 text-slate-400 font-mono text-xs">{{ p.cn }}</td>
-              <td class="py-2 text-slate-800">{{ p.producto }}</td>
+              <td class="py-2 text-slate-800">{{ p.producto }}{% if p.situacion %} <span class="ml-1 align-middle text-[10px] font-mono text-slate-500 bg-slate-100 rounded px-1.5 py-0.5" title="Situación en la farmacia">📍{{ p.situacion }}</span>{% endif %}</td>
               <td class="py-2 text-slate-500">{{ p.categoria }}</td>
-              <td class="py-2 text-right"><span class="text-brand-700 font-bold">{{ '%.2f'|format(p.euro) }} €</span></td>
-              <td class="py-2 text-right text-slate-500">{{ p.margen }}%</td>
-              <td class="py-2 text-right text-slate-600">{{ '%.2f'|format(p.pvp) }} €</td>
+              <td class="py-2 text-right"><span class="inline-block bg-brand-50 text-brand-700 font-bold rounded-md px-2 py-0.5">{{ '%.2f'|format(p.euro) }} €</span></td>
+              <td class="py-2 text-right"><span class="inline-block bg-amber-50 text-amber-700 rounded-md px-2 py-0.5">{{ p.margen }}%</span></td>
+              <td class="py-2 text-right text-slate-500">{{ '%.2f'|format(p.pvp) }} €</td>
             </tr>
             {% endfor %}
           </tbody>
