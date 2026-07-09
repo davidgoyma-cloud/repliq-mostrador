@@ -1,0 +1,212 @@
+[
+  {
+    "cn": "202225",
+    "producto": "SALVELOX MED WOUND CLOSURE STRIPS 8 TIRAS DE SUT",
+    "pvp": 8.9,
+    "margen": 82,
+    "categoria": "Botiquin"
+  },
+  {
+    "cn": "156010",
+    "producto": "TEST DE EMBARAZO EDDA PHARMA EMBARAZO 1 UNIDAD",
+    "pvp": 7.9,
+    "margen": 80,
+    "categoria": "Embarazo"
+  },
+  {
+    "cn": "180300",
+    "producto": "SVR DESMAQUILLANTE PALPEBRAL TOPIALYSE 125 M",
+    "pvp": 12.9,
+    "margen": 79,
+    "categoria": "Higiene Facial"
+  },
+  {
+    "cn": "176080",
+    "producto": "PRODUO STOP 10 SOBRES",
+    "pvp": 16.9,
+    "margen": 79,
+    "categoria": "Inmun Probioticos"
+  },
+  {
+    "cn": "157557",
+    "producto": "TEST DE EMBARAZO ENFA 1 U",
+    "pvp": 7.9,
+    "margen": 76,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "101890",
+    "producto": "TAPON SONDA",
+    "pvp": 0.9,
+    "margen": 71,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "211884",
+    "producto": "HALLEY BAMPY CALM 1 ROLL ON 12 ML",
+    "pvp": 6.9,
+    "margen": 71,
+    "categoria": "Dermo Infantil"
+  },
+  {
+    "cn": "198777",
+    "producto": "APOSAN BOTELLA ORINAL CABALLERO",
+    "pvp": 5.9,
+    "margen": 70,
+    "categoria": "Ortopedia Ayudas"
+  },
+  {
+    "cn": "590118",
+    "producto": "ADTAB 12 MG 1 COMPRIMIDO MASTICABLE PARA GATOS (",
+    "pvp": 19.9,
+    "margen": 69,
+    "categoria": "Vet Antiparasitario"
+  },
+  {
+    "cn": "186642",
+    "producto": "JERINGA C/AGUJA ESTERIL APOSAN G21 UI 0.8 X 40 M",
+    "pvp": 0.5,
+    "margen": 68,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "211653",
+    "producto": "MELAGYN GEL 500ML",
+    "pvp": 18.9,
+    "margen": 68,
+    "categoria": "Higiene Femenina."
+  },
+  {
+    "cn": "220600",
+    "producto": "MUSSVITAL BOTANICS GEL BERGAMOTA 1 ENVASE 750 ML",
+    "pvp": 4.9,
+    "margen": 67,
+    "categoria": "Higiene Corporal"
+  },
+  {
+    "cn": "209182",
+    "producto": "SALVELOX AQUA RESIST APOSITO ADHESIVO 20 APOSITO",
+    "pvp": 2.9,
+    "margen": 67,
+    "categoria": "Tiritas Y Apositos"
+  },
+  {
+    "cn": "368696",
+    "producto": "SALVELOX APOSITO ADHESIVO TELA 20 U",
+    "pvp": 2.9,
+    "margen": 67,
+    "categoria": "Tiritas Y Apositos"
+  },
+  {
+    "cn": "179092",
+    "producto": "PERSPIREX COMFORT ANTITRANSPIRANTE ROLL-ON 20 ML",
+    "pvp": 16.5,
+    "margen": 66,
+    "categoria": "Desodorantes"
+  },
+  {
+    "cn": "234344",
+    "producto": "ENVASE RECOGIDA MUESTRA ASEPTICO APOSAN 100 ML",
+    "pvp": 1.0,
+    "margen": 66,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "002720",
+    "producto": "ZARBEES 24 PASTILLAS GARGANTA E INMUNIDAD LIMON",
+    "pvp": 8.9,
+    "margen": 65,
+    "categoria": "Garganta"
+  },
+  {
+    "cn": "207838",
+    "producto": "SENSILIS BODY SPRAY SPF 50 DRY TOUCH 1 ENVASE 20",
+    "pvp": 25.9,
+    "margen": 65,
+    "categoria": "Solar Cuerpo"
+  },
+  {
+    "cn": "207612",
+    "producto": "CLORHEXIDINA EDDAPHARMA 1% 1 SPRAY 60 ML",
+    "pvp": 5.8,
+    "margen": 64,
+    "categoria": "Botiquin"
+  },
+  {
+    "cn": "397216",
+    "producto": "GESTATEST TEST DE EMBARAZO",
+    "pvp": 7.9,
+    "margen": 64,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "186639",
+    "producto": "JERINGA C/AGUJA ESTERIL APOSAN G25 UI 0.5 X 16 M",
+    "pvp": 0.5,
+    "margen": 64,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "220604",
+    "producto": "VICKS NASAL AGUAMAR FUERZA SUAVE 120ML",
+    "pvp": 10.9,
+    "margen": 63,
+    "categoria": "Descongestivo Nasal"
+  },
+  {
+    "cn": "220605",
+    "producto": "VICKS NASAL AGUAMAR FUERZA MEDIA 120ML",
+    "pvp": 10.9,
+    "margen": 63,
+    "categoria": "Descongestivo Nasal"
+  },
+  {
+    "cn": "202725",
+    "producto": "URGO AFTAS GEL JUNIOR 1 TUBO 12 ML",
+    "pvp": 12.5,
+    "margen": 63,
+    "categoria": "Buc-Aftas"
+  },
+  {
+    "cn": "186644",
+    "producto": "JERINGA C/AGUJA ESTERIL APOSAN G21 UI 0.8 X 40 M",
+    "pvp": 0.4,
+    "margen": 63,
+    "categoria": "Efectos Libre"
+  },
+  {
+    "cn": "002616",
+    "producto": "BRUMA CORPORAL PERFUMADA FRUTAL 200ML ARBASY",
+    "pvp": 3.9,
+    "margen": 62,
+    "categoria": "Dermocosmetica Adultos"
+  },
+  {
+    "cn": "215262",
+    "producto": "GASTROLIV REGU-LAX 30 COMPRIMIDOS",
+    "pvp": 9.9,
+    "margen": 62,
+    "categoria": "Digestivo Laxante"
+  },
+  {
+    "cn": "211086",
+    "producto": "PARASIDOSE ALIVIO AFTERCALM 1 ROLL ON 15 ML",
+    "pvp": 8.9,
+    "margen": 62,
+    "categoria": "Mosquitos"
+  },
+  {
+    "cn": "215263",
+    "producto": "BENSANIA GASTROLIV GASES 60 COMPRIMIDOS",
+    "pvp": 10.9,
+    "margen": 62,
+    "categoria": "Digestivo Laxante"
+  },
+  {
+    "cn": "176196",
+    "producto": "ESPARADRAPO LEUKOPLAST 1 UNIDAD 5 M X 2,5 CM COL",
+    "pvp": 4.5,
+    "margen": 61,
+    "categoria": "Efectos Libre"
+  }
+]
