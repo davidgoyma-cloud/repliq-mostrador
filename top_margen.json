@@ -5,7 +5,8 @@
     "pvp": 49.9,
     "euro": 49.55,
     "margen": 99,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M14"
   },
   {
     "cn": "216348",
@@ -13,7 +14,8 @@
     "pvp": 36.5,
     "euro": 36.17,
     "margen": 99,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": ""
   },
   {
     "cn": "212635",
@@ -21,7 +23,8 @@
     "pvp": 33.9,
     "euro": 33.68,
     "margen": 99,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "201928",
@@ -29,7 +32,8 @@
     "pvp": 53.5,
     "euro": 30.59,
     "margen": 57,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M14"
   },
   {
     "cn": "204368",
@@ -37,7 +41,8 @@
     "pvp": 40.18,
     "euro": 29.97,
     "margen": 75,
-    "categoria": "Efectos LIBRE"
+    "categoria": "Efectos LIBRE",
+    "situacion": ""
   },
   {
     "cn": "209132",
@@ -45,7 +50,8 @@
     "pvp": 29.9,
     "euro": 29.89,
     "margen": 100,
-    "categoria": "COLESTEROL OMEGAS"
+    "categoria": "COLESTEROL OMEGAS",
+    "situacion": "E6"
   },
   {
     "cn": "184565",
@@ -53,7 +59,8 @@
     "pvp": 29.9,
     "euro": 29.89,
     "margen": 100,
-    "categoria": "COLESTEROL OMEGAS"
+    "categoria": "COLESTEROL OMEGAS",
+    "situacion": "E4"
   },
   {
     "cn": "103130",
@@ -61,7 +68,8 @@
     "pvp": 30.0,
     "euro": 29.64,
     "margen": 99,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": ""
   },
   {
     "cn": "102961",
@@ -69,7 +77,8 @@
     "pvp": 49.9,
     "euro": 28.79,
     "margen": 58,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "000469",
@@ -77,7 +86,8 @@
     "pvp": 55.0,
     "euro": 27.36,
     "margen": 50,
-    "categoria": "ZAPATOS"
+    "categoria": "ZAPATOS",
+    "situacion": "MESA 3"
   },
   {
     "cn": "184884",
@@ -85,7 +95,8 @@
     "pvp": 26.9,
     "euro": 26.89,
     "margen": 100,
-    "categoria": "DIETETICA INFANTIL"
+    "categoria": "DIETETICA INFANTIL",
+    "situacion": "E6"
   },
   {
     "cn": "166715",
@@ -93,7 +104,8 @@
     "pvp": 24.9,
     "euro": 24.88,
     "margen": 100,
-    "categoria": "MULTIVITAMINAS"
+    "categoria": "MULTIVITAMINAS",
+    "situacion": "E3"
   },
   {
     "cn": "265124",
@@ -101,7 +113,8 @@
     "pvp": 52.9,
     "euro": 24.47,
     "margen": 46,
-    "categoria": "Higiene corporal"
+    "categoria": "Higiene corporal",
+    "situacion": ""
   },
   {
     "cn": "199178",
@@ -109,7 +122,8 @@
     "pvp": 49.9,
     "euro": 24.22,
     "margen": 49,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": "C2"
   },
   {
     "cn": "199179",
@@ -117,7 +131,8 @@
     "pvp": 49.9,
     "euro": 24.22,
     "margen": 49,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "183929",
@@ -125,7 +140,8 @@
     "pvp": 49.9,
     "euro": 24.19,
     "margen": 48,
-    "categoria": "NUTRI DEPORTIVA"
+    "categoria": "NUTRI DEPORTIVA",
+    "situacion": ""
   },
   {
     "cn": "205030",
@@ -133,7 +149,8 @@
     "pvp": 49.9,
     "euro": 23.8,
     "margen": 48,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": ""
   },
   {
     "cn": "269142",
@@ -141,7 +158,8 @@
     "pvp": 49.9,
     "euro": 23.58,
     "margen": 47,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": "O5"
   },
   {
     "cn": "269126",
@@ -149,7 +167,8 @@
     "pvp": 49.9,
     "euro": 23.58,
     "margen": 47,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "208620",
@@ -157,7 +176,8 @@
     "pvp": 39.5,
     "euro": 23.16,
     "margen": 59,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M16"
   },
   {
     "cn": "009783",
@@ -165,7 +185,8 @@
     "pvp": 53.0,
     "euro": 23.04,
     "margen": 43,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": ""
   },
   {
     "cn": "100324",
@@ -173,7 +194,8 @@
     "pvp": 42.95,
     "euro": 22.96,
     "margen": 53,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "725367",
@@ -181,7 +203,8 @@
     "pvp": 31.03,
     "euro": 22.95,
     "margen": 74,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": ""
   },
   {
     "cn": "153766",
@@ -189,7 +212,8 @@
     "pvp": 52.9,
     "euro": 22.7,
     "margen": 43,
-    "categoria": "NUTRICOSMETICA"
+    "categoria": "NUTRICOSMETICA",
+    "situacion": "M11"
   },
   {
     "cn": "975342",
@@ -197,7 +221,8 @@
     "pvp": 43.75,
     "euro": 22.69,
     "margen": 52,
-    "categoria": "EFP TABACO"
+    "categoria": "EFP TABACO",
+    "situacion": "M9"
   },
   {
     "cn": "199180",
@@ -205,7 +230,8 @@
     "pvp": 49.9,
     "euro": 22.48,
     "margen": 45,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "201514",
@@ -213,7 +239,8 @@
     "pvp": 49.9,
     "euro": 22.06,
     "margen": 44,
-    "categoria": "NUTRICAPILAR"
+    "categoria": "NUTRICAPILAR",
+    "situacion": "M10"
   },
   {
     "cn": "014588",
@@ -221,7 +248,8 @@
     "pvp": 51.9,
     "euro": 21.96,
     "margen": 42,
-    "categoria": "DIGESTIVO ANTIACIDO"
+    "categoria": "DIGESTIVO ANTIACIDO",
+    "situacion": "E4"
   },
   {
     "cn": "209501",
@@ -229,7 +257,8 @@
     "pvp": 21.9,
     "euro": 21.89,
     "margen": 100,
-    "categoria": "DOLOR TOPICO"
+    "categoria": "DOLOR TOPICO",
+    "situacion": "E6"
   },
   {
     "cn": "212723",
@@ -237,7 +266,8 @@
     "pvp": 45.9,
     "euro": 21.48,
     "margen": 47,
-    "categoria": "ORTO BAZAR PIES"
+    "categoria": "ORTO BAZAR PIES",
+    "situacion": ""
   },
   {
     "cn": "204108",
@@ -245,7 +275,8 @@
     "pvp": 42.9,
     "euro": 21.29,
     "margen": 50,
-    "categoria": "NUTRICAPILAR"
+    "categoria": "NUTRICAPILAR",
+    "situacion": ""
   },
   {
     "cn": "003632",
@@ -253,7 +284,8 @@
     "pvp": 49.9,
     "euro": 21.13,
     "margen": 42,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "184311",
@@ -261,7 +293,8 @@
     "pvp": 52.5,
     "euro": 20.93,
     "margen": 40,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "154088",
@@ -269,7 +302,8 @@
     "pvp": 36.9,
     "euro": 20.91,
     "margen": 57,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "187792",
@@ -277,7 +311,8 @@
     "pvp": 29.9,
     "euro": 20.54,
     "margen": 69,
-    "categoria": "ADELGAZAMIENTO"
+    "categoria": "ADELGAZAMIENTO",
+    "situacion": ""
   },
   {
     "cn": "001937",
@@ -285,7 +320,8 @@
     "pvp": 46.95,
     "euro": 20.21,
     "margen": 43,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "223767",
@@ -293,7 +329,8 @@
     "pvp": 49.5,
     "euro": 20.18,
     "margen": 41,
-    "categoria": "DOLORF ORAL"
+    "categoria": "DOLORF ORAL",
+    "situacion": ""
   },
   {
     "cn": "215839",
@@ -301,7 +338,8 @@
     "pvp": 52.9,
     "euro": 20.01,
     "margen": 38,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M13"
   },
   {
     "cn": "216670",
@@ -309,7 +347,8 @@
     "pvp": 43.0,
     "euro": 20.0,
     "margen": 47,
-    "categoria": "NUTRICAPILAR"
+    "categoria": "NUTRICAPILAR",
+    "situacion": ""
   },
   {
     "cn": "701866",
@@ -317,7 +356,8 @@
     "pvp": 22.96,
     "euro": 19.98,
     "margen": 87,
-    "categoria": "EFP GINE INFECC ORINA"
+    "categoria": "EFP GINE INFECC ORINA",
+    "situacion": "CAJONERA"
   },
   {
     "cn": "001256",
@@ -325,7 +365,8 @@
     "pvp": 54.9,
     "euro": 19.93,
     "margen": 36,
-    "categoria": "NUTRICAPILAR"
+    "categoria": "NUTRICAPILAR",
+    "situacion": "M9"
   },
   {
     "cn": "168768",
@@ -333,7 +374,8 @@
     "pvp": 19.9,
     "euro": 19.9,
     "margen": 100,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": ""
   },
   {
     "cn": "003149",
@@ -341,7 +383,8 @@
     "pvp": 34.9,
     "euro": 19.74,
     "margen": 57,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "197967",
@@ -349,7 +392,8 @@
     "pvp": 36.9,
     "euro": 19.59,
     "margen": 53,
-    "categoria": "APARATOLOGIA"
+    "categoria": "APARATOLOGIA",
+    "situacion": ""
   },
   {
     "cn": "199191",
@@ -357,7 +401,8 @@
     "pvp": 37.9,
     "euro": 19.57,
     "margen": 52,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": ""
   },
   {
     "cn": "199021",
@@ -365,7 +410,8 @@
     "pvp": 42.9,
     "euro": 19.51,
     "margen": 45,
-    "categoria": "NUTRICAPILAR"
+    "categoria": "NUTRICAPILAR",
+    "situacion": ""
   },
   {
     "cn": "665665",
@@ -373,7 +419,8 @@
     "pvp": 30.38,
     "euro": 19.42,
     "margen": 64,
-    "categoria": "EFP DOLOR ORAL"
+    "categoria": "EFP DOLOR ORAL",
+    "situacion": "MTR4"
   },
   {
     "cn": "188312",
@@ -381,7 +428,8 @@
     "pvp": 54.9,
     "euro": 19.37,
     "margen": 35,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": ""
   },
   {
     "cn": "206676",
@@ -389,7 +437,8 @@
     "pvp": 45.0,
     "euro": 19.33,
     "margen": 43,
-    "categoria": "Pies"
+    "categoria": "Pies",
+    "situacion": ""
   },
   {
     "cn": "172401",
@@ -397,7 +446,8 @@
     "pvp": 54.9,
     "euro": 19.31,
     "margen": 35,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M14"
   },
   {
     "cn": "172402",
@@ -405,7 +455,8 @@
     "pvp": 54.9,
     "euro": 19.31,
     "margen": 35,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M14"
   },
   {
     "cn": "190960",
@@ -413,7 +464,8 @@
     "pvp": 39.9,
     "euro": 19.3,
     "margen": 48,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": "O5"
   },
   {
     "cn": "002271",
@@ -421,7 +473,8 @@
     "pvp": 52.9,
     "euro": 19.27,
     "margen": 36,
-    "categoria": "MULTIVITAMINAS"
+    "categoria": "MULTIVITAMINAS",
+    "situacion": ""
   },
   {
     "cn": "176108",
@@ -429,7 +482,8 @@
     "pvp": 54.9,
     "euro": 19.22,
     "margen": 35,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "001938",
@@ -437,7 +491,8 @@
     "pvp": 37.5,
     "euro": 19.12,
     "margen": 51,
-    "categoria": "FITOTERAPIA"
+    "categoria": "FITOTERAPIA",
+    "situacion": "E4"
   },
   {
     "cn": "187089",
@@ -445,7 +500,8 @@
     "pvp": 18.9,
     "euro": 18.89,
     "margen": 100,
-    "categoria": "SOLAR CUERPO"
+    "categoria": "SOLAR CUERPO",
+    "situacion": ""
   },
   {
     "cn": "165277",
@@ -453,7 +509,8 @@
     "pvp": 17.9,
     "euro": 17.89,
     "margen": 100,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": "ORTO MUEBLE"
   },
   {
     "cn": "207838",
@@ -461,7 +518,8 @@
     "pvp": 25.9,
     "euro": 17.65,
     "margen": 68,
-    "categoria": "SOLAR CUERPO"
+    "categoria": "SOLAR CUERPO",
+    "situacion": ""
   },
   {
     "cn": "204322",
@@ -469,7 +527,8 @@
     "pvp": 17.5,
     "euro": 17.38,
     "margen": 99,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": "M14"
   },
   {
     "cn": "701374",
@@ -477,7 +536,8 @@
     "pvp": 22.64,
     "euro": 17.08,
     "margen": 75,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": "CAJONERA"
   },
   {
     "cn": "160255",
@@ -485,7 +545,8 @@
     "pvp": 14.9,
     "euro": 14.8,
     "margen": 99,
-    "categoria": "SUEÑO Y ANIMO"
+    "categoria": "SUEÑO Y ANIMO",
+    "situacion": "M3"
   },
   {
     "cn": "168178",
@@ -493,7 +554,8 @@
     "pvp": 17.9,
     "euro": 14.5,
     "margen": 81,
-    "categoria": "NUTRIOPTICA"
+    "categoria": "NUTRIOPTICA",
+    "situacion": "C22"
   },
   {
     "cn": "176080",
@@ -501,7 +563,8 @@
     "pvp": 16.9,
     "euro": 13.56,
     "margen": 80,
-    "categoria": "INMUN PROBIOTICOS"
+    "categoria": "INMUN PROBIOTICOS",
+    "situacion": "M2"
   },
   {
     "cn": "180300",
@@ -509,7 +572,8 @@
     "pvp": 12.9,
     "euro": 12.81,
     "margen": 99,
-    "categoria": "HIGIENE FACIAL"
+    "categoria": "HIGIENE FACIAL",
+    "situacion": ""
   },
   {
     "cn": "729756",
@@ -517,7 +581,8 @@
     "pvp": 11.54,
     "euro": 11.47,
     "margen": 99,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": "M2"
   },
   {
     "cn": "733063",
@@ -525,7 +590,8 @@
     "pvp": 15.95,
     "euro": 11.1,
     "margen": 70,
-    "categoria": "EFP DOLOR TOPICO"
+    "categoria": "EFP DOLOR TOPICO",
+    "situacion": ""
   },
   {
     "cn": "704070",
@@ -533,7 +599,8 @@
     "pvp": 14.99,
     "euro": 10.98,
     "margen": 73,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M5"
   },
   {
     "cn": "213720",
@@ -541,7 +608,8 @@
     "pvp": 14.9,
     "euro": 10.88,
     "margen": 73,
-    "categoria": "MULTIVITAMINAS"
+    "categoria": "MULTIVITAMINAS",
+    "situacion": "C4"
   },
   {
     "cn": "927210",
@@ -549,7 +617,8 @@
     "pvp": 14.99,
     "euro": 10.44,
     "margen": 70,
-    "categoria": "EFP BUCAL"
+    "categoria": "EFP BUCAL",
+    "situacion": "M3"
   },
   {
     "cn": "771337",
@@ -557,7 +626,8 @@
     "pvp": 14.47,
     "euro": 10.26,
     "margen": 71,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "A1"
   },
   {
     "cn": "677204",
@@ -565,7 +635,8 @@
     "pvp": 14.47,
     "euro": 10.26,
     "margen": 71,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "M6"
   },
   {
     "cn": "688547",
@@ -573,7 +644,8 @@
     "pvp": 11.9,
     "euro": 10.18,
     "margen": 86,
-    "categoria": "EFP ALERGIA ORAL"
+    "categoria": "EFP ALERGIA ORAL",
+    "situacion": "C7"
   },
   {
     "cn": "244689",
@@ -581,7 +653,8 @@
     "pvp": 9.9,
     "euro": 9.9,
     "margen": 100,
-    "categoria": "Pies"
+    "categoria": "Pies",
+    "situacion": "C18"
   },
   {
     "cn": "296665",
@@ -589,7 +662,8 @@
     "pvp": 9.9,
     "euro": 9.89,
     "margen": 100,
-    "categoria": "FITOTERAPIA"
+    "categoria": "FITOTERAPIA",
+    "situacion": "MTR1"
   },
   {
     "cn": "215878",
@@ -597,7 +671,8 @@
     "pvp": 9.9,
     "euro": 9.81,
     "margen": 99,
-    "categoria": "Dietetica"
+    "categoria": "Dietetica",
+    "situacion": ""
   },
   {
     "cn": "720532",
@@ -605,7 +680,8 @@
     "pvp": 13.99,
     "euro": 9.78,
     "margen": 70,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "A1"
   },
   {
     "cn": "653982",
@@ -613,7 +689,8 @@
     "pvp": 11.9,
     "euro": 9.74,
     "margen": 82,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": ""
   },
   {
     "cn": "205570",
@@ -621,7 +698,8 @@
     "pvp": 9.8,
     "euro": 9.69,
     "margen": 99,
-    "categoria": "OJOS PATOLOGIA"
+    "categoria": "OJOS PATOLOGIA",
+    "situacion": "M6"
   },
   {
     "cn": "211603",
@@ -629,7 +707,8 @@
     "pvp": 9.8,
     "euro": 9.69,
     "margen": 99,
-    "categoria": "MANOS"
+    "categoria": "MANOS",
+    "situacion": ""
   },
   {
     "cn": "762343",
@@ -637,7 +716,8 @@
     "pvp": 11.55,
     "euro": 9.31,
     "margen": 81,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M6"
   },
   {
     "cn": "716425",
@@ -645,7 +725,8 @@
     "pvp": 11.55,
     "euro": 9.23,
     "margen": 80,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "M6"
   },
   {
     "cn": "689188",
@@ -653,7 +734,8 @@
     "pvp": 12.85,
     "euro": 8.97,
     "margen": 70,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "A1"
   },
   {
     "cn": "202225",
@@ -661,7 +743,8 @@
     "pvp": 8.9,
     "euro": 8.9,
     "margen": 100,
-    "categoria": "BOTIQUIN"
+    "categoria": "BOTIQUIN",
+    "situacion": ""
   },
   {
     "cn": "718695",
@@ -669,7 +752,8 @@
     "pvp": 10.99,
     "euro": 8.79,
     "margen": 80,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "M6"
   },
   {
     "cn": "779165",
@@ -677,7 +761,8 @@
     "pvp": 11.25,
     "euro": 8.73,
     "margen": 78,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "JARAB 3"
   },
   {
     "cn": "833343",
@@ -685,7 +770,8 @@
     "pvp": 12.35,
     "euro": 8.4,
     "margen": 68,
-    "categoria": "EFP GRIPE"
+    "categoria": "EFP GRIPE",
+    "situacion": "M6"
   },
   {
     "cn": "715521",
@@ -693,7 +779,8 @@
     "pvp": 11.99,
     "euro": 8.38,
     "margen": 70,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M5"
   },
   {
     "cn": "758032",
@@ -701,7 +788,8 @@
     "pvp": 10.3,
     "euro": 8.28,
     "margen": 80,
-    "categoria": "EFP DIGEST DIARREA"
+    "categoria": "EFP DIGEST DIARREA",
+    "situacion": "M2"
   },
   {
     "cn": "691758",
@@ -709,7 +797,8 @@
     "pvp": 11.02,
     "euro": 8.21,
     "margen": 75,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M5"
   },
   {
     "cn": "691774",
@@ -717,7 +806,8 @@
     "pvp": 11.02,
     "euro": 8.21,
     "margen": 75,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M5"
   },
   {
     "cn": "706955",
@@ -725,7 +815,8 @@
     "pvp": 10.05,
     "euro": 8.03,
     "margen": 80,
-    "categoria": "EFP GARGANTA"
+    "categoria": "EFP GARGANTA",
+    "situacion": "M5"
   },
   {
     "cn": "758625",
@@ -733,7 +824,8 @@
     "pvp": 10.04,
     "euro": 8.02,
     "margen": 80,
-    "categoria": "EFP ALERGIA ORAL"
+    "categoria": "EFP ALERGIA ORAL",
+    "situacion": "C11"
   },
   {
     "cn": "254555",
@@ -741,7 +833,8 @@
     "pvp": 8.0,
     "euro": 8.0,
     "margen": 100,
-    "categoria": "Dermocosmetica ADULTOS"
+    "categoria": "Dermocosmetica ADULTOS",
+    "situacion": ""
   },
   {
     "cn": "722321",
@@ -749,7 +842,8 @@
     "pvp": 10.35,
     "euro": 7.93,
     "margen": 77,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M1"
   },
   {
     "cn": "213534",
@@ -757,7 +851,8 @@
     "pvp": 7.9,
     "euro": 7.89,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "103534",
@@ -765,7 +860,8 @@
     "pvp": 7.9,
     "euro": 7.89,
     "margen": 100,
-    "categoria": "EMBARAZO"
+    "categoria": "EMBARAZO",
+    "situacion": ""
   },
   {
     "cn": "211883",
@@ -773,7 +869,8 @@
     "pvp": 7.9,
     "euro": 7.86,
     "margen": 99,
-    "categoria": "MOSQUITOS"
+    "categoria": "MOSQUITOS",
+    "situacion": "MTR2"
   },
   {
     "cn": "161542",
@@ -781,7 +878,8 @@
     "pvp": 7.9,
     "euro": 7.81,
     "margen": 99,
-    "categoria": "Efectos LIBRE"
+    "categoria": "Efectos LIBRE",
+    "situacion": "C1"
   },
   {
     "cn": "174848",
@@ -789,7 +887,8 @@
     "pvp": 7.0,
     "euro": 6.99,
     "margen": 100,
-    "categoria": "Efectos LIBRE"
+    "categoria": "Efectos LIBRE",
+    "situacion": "C3"
   },
   {
     "cn": "672499",
@@ -797,7 +896,8 @@
     "pvp": 8.6,
     "euro": 6.99,
     "margen": 81,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "CAJONERA"
   },
   {
     "cn": "702674",
@@ -805,7 +905,8 @@
     "pvp": 9.99,
     "euro": 6.98,
     "margen": 70,
-    "categoria": "EFP DESCONGESTIVOS ORAL"
+    "categoria": "EFP DESCONGESTIVOS ORAL",
+    "situacion": "A1"
   },
   {
     "cn": "718846",
@@ -813,7 +914,8 @@
     "pvp": 9.51,
     "euro": 6.96,
     "margen": 73,
-    "categoria": "EFP DOLOR ORAL"
+    "categoria": "EFP DOLOR ORAL",
+    "situacion": "M3"
   },
   {
     "cn": "713470",
@@ -821,7 +923,8 @@
     "pvp": 10.26,
     "euro": 6.9,
     "margen": 67,
-    "categoria": "EFP GARGANTA"
+    "categoria": "EFP GARGANTA",
+    "situacion": "M4"
   },
   {
     "cn": "712357",
@@ -829,15 +932,8 @@
     "pvp": 10.26,
     "euro": 6.9,
     "margen": 67,
-    "categoria": "EFP GARGANTA"
-  },
-  {
-    "cn": "204730",
-    "producto": "FLUOCARIL CEPILLO INTERDENTAL",
-    "pvp": 6.9,
-    "euro": 6.89,
-    "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "EFP GARGANTA",
+    "situacion": "M4"
   },
   {
     "cn": "204734",
@@ -845,7 +941,17 @@
     "pvp": 6.9,
     "euro": 6.89,
     "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": "D1"
+  },
+  {
+    "cn": "204730",
+    "producto": "FLUOCARIL CEPILLO INTERDENTAL",
+    "pvp": 6.9,
+    "euro": 6.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": "D1"
   },
   {
     "cn": "186268",
@@ -853,7 +959,8 @@
     "pvp": 9.9,
     "euro": 6.74,
     "margen": 68,
-    "categoria": "ORTO BAZAR PIES"
+    "categoria": "ORTO BAZAR PIES",
+    "situacion": "O3"
   },
   {
     "cn": "186269",
@@ -861,7 +968,8 @@
     "pvp": 9.9,
     "euro": 6.74,
     "margen": 68,
-    "categoria": "ORTO BAZAR PIES"
+    "categoria": "ORTO BAZAR PIES",
+    "situacion": "O3"
   },
   {
     "cn": "763072",
@@ -869,7 +977,8 @@
     "pvp": 9.15,
     "euro": 6.7,
     "margen": 73,
-    "categoria": "EFP TOS"
+    "categoria": "EFP TOS",
+    "situacion": "M5"
   },
   {
     "cn": "320986",
@@ -877,7 +986,8 @@
     "pvp": 7.9,
     "euro": 6.65,
     "margen": 84,
-    "categoria": "EMBARAZO"
+    "categoria": "EMBARAZO",
+    "situacion": "C6"
   },
   {
     "cn": "156010",
@@ -885,7 +995,8 @@
     "pvp": 7.9,
     "euro": 6.27,
     "margen": 79,
-    "categoria": "EMBARAZO"
+    "categoria": "EMBARAZO",
+    "situacion": "C21"
   },
   {
     "cn": "002732",
@@ -893,7 +1004,8 @@
     "pvp": 7.9,
     "euro": 6.21,
     "margen": 79,
-    "categoria": "EMBARAZO"
+    "categoria": "EMBARAZO",
+    "situacion": "C3"
   },
   {
     "cn": "157557",
@@ -901,7 +1013,8 @@
     "pvp": 7.9,
     "euro": 6.01,
     "margen": 76,
-    "categoria": "Efectos LIBRE"
+    "categoria": "Efectos LIBRE",
+    "situacion": "C21"
   },
   {
     "cn": "673061",
@@ -909,7 +1022,8 @@
     "pvp": 8.85,
     "euro": 5.95,
     "margen": 67,
-    "categoria": "EFP ALERGIA TOPICA"
+    "categoria": "EFP ALERGIA TOPICA",
+    "situacion": "C8"
   },
   {
     "cn": "154659",
@@ -917,7 +1031,8 @@
     "pvp": 5.9,
     "euro": 5.9,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "MTR3"
   },
   {
     "cn": "150358",
@@ -925,7 +1040,8 @@
     "pvp": 5.9,
     "euro": 5.89,
     "margen": 100,
-    "categoria": "LABIALES"
+    "categoria": "LABIALES",
+    "situacion": ""
   },
   {
     "cn": "339537",
@@ -933,7 +1049,8 @@
     "pvp": 5.9,
     "euro": 5.89,
     "margen": 100,
-    "categoria": "TAPONES OIDO"
+    "categoria": "TAPONES OIDO",
+    "situacion": "C6"
   },
   {
     "cn": "720919",
@@ -941,7 +1058,8 @@
     "pvp": 6.62,
     "euro": 5.73,
     "margen": 87,
-    "categoria": "EFP DESCONGESTIVO NASAL"
+    "categoria": "EFP DESCONGESTIVO NASAL",
+    "situacion": "M4"
   },
   {
     "cn": "589008",
@@ -949,7 +1067,8 @@
     "pvp": 7.9,
     "euro": 5.61,
     "margen": 71,
-    "categoria": "VET ANTIPARASITARIO"
+    "categoria": "VET ANTIPARASITARIO",
+    "situacion": ""
   },
   {
     "cn": "194897",
@@ -957,7 +1076,8 @@
     "pvp": 5.5,
     "euro": 5.5,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "157554",
@@ -965,7 +1085,8 @@
     "pvp": 5.5,
     "euro": 5.49,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "MTR3"
   },
   {
     "cn": "190970",
@@ -973,7 +1094,8 @@
     "pvp": 5.5,
     "euro": 5.49,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "729755",
@@ -981,7 +1103,8 @@
     "pvp": 7.63,
     "euro": 5.48,
     "margen": 72,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": "M2"
   },
   {
     "cn": "101425",
@@ -989,7 +1112,8 @@
     "pvp": 7.9,
     "euro": 5.33,
     "margen": 67,
-    "categoria": "APARATOLOGIA"
+    "categoria": "APARATOLOGIA",
+    "situacion": "ORTO MUEBLE"
   },
   {
     "cn": "197418",
@@ -997,7 +1121,8 @@
     "pvp": 6.9,
     "euro": 5.31,
     "margen": 77,
-    "categoria": "BUC-INFANTIL"
+    "categoria": "BUC-INFANTIL",
+    "situacion": "C5"
   },
   {
     "cn": "196329",
@@ -1005,7 +1130,8 @@
     "pvp": 6.9,
     "euro": 5.31,
     "margen": 77,
-    "categoria": "BUC-INFANTIL"
+    "categoria": "BUC-INFANTIL",
+    "situacion": ""
   },
   {
     "cn": "186749",
@@ -1013,7 +1139,8 @@
     "pvp": 6.9,
     "euro": 5.31,
     "margen": 77,
-    "categoria": "BUC-INFANTIL"
+    "categoria": "BUC-INFANTIL",
+    "situacion": ""
   },
   {
     "cn": "891457",
@@ -1021,7 +1148,8 @@
     "pvp": 6.45,
     "euro": 5.16,
     "margen": 80,
-    "categoria": "EFP DESCONGESTIVO NASAL"
+    "categoria": "EFP DESCONGESTIVO NASAL",
+    "situacion": "M1"
   },
   {
     "cn": "002621",
@@ -1029,7 +1157,8 @@
     "pvp": 6.9,
     "euro": 5.06,
     "margen": 73,
-    "categoria": "CORPORAL"
+    "categoria": "CORPORAL",
+    "situacion": "C20"
   },
   {
     "cn": "701637",
@@ -1037,7 +1166,8 @@
     "pvp": 6.88,
     "euro": 5.04,
     "margen": 73,
-    "categoria": "Genericos"
+    "categoria": "Genericos",
+    "situacion": "CAJON OCULAR"
   },
   {
     "cn": "758031",
@@ -1045,7 +1175,8 @@
     "pvp": 6.24,
     "euro": 4.93,
     "margen": 79,
-    "categoria": "ESPECIALIDADES"
+    "categoria": "ESPECIALIDADES",
+    "situacion": ""
   },
   {
     "cn": "211884",
@@ -1053,15 +1184,8 @@
     "pvp": 6.9,
     "euro": 4.9,
     "margen": 71,
-    "categoria": "DERMO INFANTIL"
-  },
-  {
-    "cn": "204736",
-    "producto": "PAROGENCYL GINGI PRO INTERDENTAL RECAMBIO SUAVE",
-    "pvp": 4.9,
-    "euro": 4.89,
-    "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "DERMO INFANTIL",
+    "situacion": "CV BEBES"
   },
   {
     "cn": "204731",
@@ -1069,7 +1193,8 @@
     "pvp": 4.9,
     "euro": 4.89,
     "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": ""
   },
   {
     "cn": "204294",
@@ -1077,7 +1202,17 @@
     "pvp": 4.9,
     "euro": 4.89,
     "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": "D1"
+  },
+  {
+    "cn": "204736",
+    "producto": "PAROGENCYL GINGI PRO INTERDENTAL RECAMBIO SUAVE",
+    "pvp": 4.9,
+    "euro": 4.89,
+    "margen": 100,
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": "D1"
   },
   {
     "cn": "245027",
@@ -1085,7 +1220,8 @@
     "pvp": 4.9,
     "euro": 4.84,
     "margen": 99,
-    "categoria": "BOTIQUIN"
+    "categoria": "BOTIQUIN",
+    "situacion": ""
   },
   {
     "cn": "190170",
@@ -1093,7 +1229,8 @@
     "pvp": 6.9,
     "euro": 4.77,
     "margen": 69,
-    "categoria": "CATARRO NATURAL"
+    "categoria": "CATARRO NATURAL",
+    "situacion": ""
   },
   {
     "cn": "000877",
@@ -1101,7 +1238,8 @@
     "pvp": 4.9,
     "euro": 4.72,
     "margen": 96,
-    "categoria": "MOSQUITOS"
+    "categoria": "MOSQUITOS",
+    "situacion": "E1"
   },
   {
     "cn": "190171",
@@ -1109,7 +1247,8 @@
     "pvp": 6.9,
     "euro": 4.63,
     "margen": 67,
-    "categoria": "CATARRO NATURAL"
+    "categoria": "CATARRO NATURAL",
+    "situacion": "A1"
   },
   {
     "cn": "170854",
@@ -1117,7 +1256,8 @@
     "pvp": 4.5,
     "euro": 4.5,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "C2"
   },
   {
     "cn": "763350",
@@ -1125,7 +1265,8 @@
     "pvp": 5.31,
     "euro": 4.24,
     "margen": 80,
-    "categoria": "ESPECIALIDADES"
+    "categoria": "ESPECIALIDADES",
+    "situacion": ""
   },
   {
     "cn": "756029",
@@ -1133,7 +1274,8 @@
     "pvp": 5.68,
     "euro": 4.16,
     "margen": 73,
-    "categoria": "EFP DOLOR ORAL"
+    "categoria": "EFP DOLOR ORAL",
+    "situacion": "M3"
   },
   {
     "cn": "198777",
@@ -1141,7 +1283,8 @@
     "pvp": 5.9,
     "euro": 4.15,
     "margen": 70,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": ""
   },
   {
     "cn": "235846",
@@ -1149,7 +1292,8 @@
     "pvp": 3.9,
     "euro": 3.9,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "MTR4"
   },
   {
     "cn": "001507",
@@ -1157,7 +1301,8 @@
     "pvp": 3.9,
     "euro": 3.87,
     "margen": 99,
-    "categoria": "BOTIQUIN"
+    "categoria": "BOTIQUIN",
+    "situacion": "C2"
   },
   {
     "cn": "012579",
@@ -1165,7 +1310,8 @@
     "pvp": 4.9,
     "euro": 3.75,
     "margen": 77,
-    "categoria": "ORTOPEDIA AYUDAS"
+    "categoria": "ORTOPEDIA AYUDAS",
+    "situacion": "CAJONE. ORTO"
   },
   {
     "cn": "197789",
@@ -1173,7 +1319,8 @@
     "pvp": 4.9,
     "euro": 3.51,
     "margen": 72,
-    "categoria": "ACCESORIOS INFANTIL"
+    "categoria": "ACCESORIOS INFANTIL",
+    "situacion": "CV BEBES"
   },
   {
     "cn": "374017",
@@ -1181,7 +1328,8 @@
     "pvp": 3.5,
     "euro": 3.5,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "330582",
@@ -1189,7 +1337,8 @@
     "pvp": 3.5,
     "euro": 3.49,
     "margen": 100,
-    "categoria": "HIGIENE CAPILAR"
+    "categoria": "HIGIENE CAPILAR",
+    "situacion": "M13"
   },
   {
     "cn": "185163",
@@ -1197,7 +1346,8 @@
     "pvp": 3.5,
     "euro": 3.46,
     "margen": 99,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "MTR4"
   },
   {
     "cn": "220600",
@@ -1205,7 +1355,8 @@
     "pvp": 4.9,
     "euro": 3.3,
     "margen": 67,
-    "categoria": "Higiene corporal"
+    "categoria": "Higiene corporal",
+    "situacion": ""
   },
   {
     "cn": "216140",
@@ -1213,7 +1364,8 @@
     "pvp": 4.9,
     "euro": 3.3,
     "margen": 67,
-    "categoria": "Higiene corporal"
+    "categoria": "Higiene corporal",
+    "situacion": ""
   },
   {
     "cn": "342329",
@@ -1221,7 +1373,8 @@
     "pvp": 3.9,
     "euro": 3.14,
     "margen": 81,
-    "categoria": "ORTO BAZAR PIES"
+    "categoria": "ORTO BAZAR PIES",
+    "situacion": "ORTO MUEBLE"
   },
   {
     "cn": "303347",
@@ -1229,7 +1382,8 @@
     "pvp": 3.9,
     "euro": 3.14,
     "margen": 81,
-    "categoria": "ORTO BAZAR PIES"
+    "categoria": "ORTO BAZAR PIES",
+    "situacion": "ORTO MUEBLE"
   },
   {
     "cn": "724772",
@@ -1237,7 +1391,8 @@
     "pvp": 4.18,
     "euro": 3.06,
     "margen": 73,
-    "categoria": "EFP DIGEST ANTIACIDO"
+    "categoria": "EFP DIGEST ANTIACIDO",
+    "situacion": "M3"
   },
   {
     "cn": "303354",
@@ -1245,7 +1400,8 @@
     "pvp": 3.0,
     "euro": 2.91,
     "margen": 97,
-    "categoria": "Efectos LIBRE"
+    "categoria": "Efectos LIBRE",
+    "situacion": "CAJONE. ORTO"
   },
   {
     "cn": "195257",
@@ -1253,7 +1409,8 @@
     "pvp": 2.9,
     "euro": 2.9,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "302451",
@@ -1261,7 +1418,8 @@
     "pvp": 2.9,
     "euro": 2.9,
     "margen": 100,
-    "categoria": "BUC-CEPILLO MANUAL"
+    "categoria": "BUC-CEPILLO MANUAL",
+    "situacion": "M13"
   },
   {
     "cn": "302426",
@@ -1269,7 +1427,8 @@
     "pvp": 2.9,
     "euro": 2.9,
     "margen": 100,
-    "categoria": "BUC-CEPILLO MANUAL"
+    "categoria": "BUC-CEPILLO MANUAL",
+    "situacion": "M9"
   },
   {
     "cn": "209079",
@@ -1277,7 +1436,8 @@
     "pvp": 2.9,
     "euro": 2.9,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "218096",
@@ -1285,7 +1445,8 @@
     "pvp": 2.9,
     "euro": 2.9,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "204295",
@@ -1293,7 +1454,8 @@
     "pvp": 2.9,
     "euro": 2.89,
     "margen": 100,
-    "categoria": "BUC-INTERDENTALES"
+    "categoria": "BUC-INTERDENTALES",
+    "situacion": "D1"
   },
   {
     "cn": "368696",
@@ -1301,7 +1463,8 @@
     "pvp": 2.9,
     "euro": 2.89,
     "margen": 100,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "MTR4"
   },
   {
     "cn": "001511",
@@ -1309,7 +1472,8 @@
     "pvp": 2.9,
     "euro": 2.78,
     "margen": 96,
-    "categoria": "BOTIQUIN"
+    "categoria": "BOTIQUIN",
+    "situacion": "CAJON CURAS"
   },
   {
     "cn": "730579",
@@ -1317,7 +1481,8 @@
     "pvp": 3.95,
     "euro": 2.7,
     "margen": 68,
-    "categoria": "EFP"
+    "categoria": "EFP",
+    "situacion": "M5"
   },
   {
     "cn": "728603",
@@ -1325,7 +1490,8 @@
     "pvp": 3.95,
     "euro": 2.7,
     "margen": 68,
-    "categoria": "EFP DOLOR ORAL"
+    "categoria": "EFP DOLOR ORAL",
+    "situacion": "M3"
   },
   {
     "cn": "001515",
@@ -1333,7 +1499,8 @@
     "pvp": 2.5,
     "euro": 2.48,
     "margen": 99,
-    "categoria": "BOTIQUIN"
+    "categoria": "BOTIQUIN",
+    "situacion": "C2"
   },
   {
     "cn": "160306",
@@ -1341,7 +1508,8 @@
     "pvp": 2.5,
     "euro": 2.46,
     "margen": 99,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": ""
   },
   {
     "cn": "101971",
@@ -1349,7 +1517,8 @@
     "pvp": 3.0,
     "euro": 2.3,
     "margen": 77,
-    "categoria": "Servicios Profesionales"
+    "categoria": "Servicios Profesionales",
+    "situacion": ""
   },
   {
     "cn": "103138",
@@ -1357,7 +1526,8 @@
     "pvp": 2.5,
     "euro": 2.01,
     "margen": 80,
-    "categoria": "ORTO ARTICULACIONES"
+    "categoria": "ORTO ARTICULACIONES",
+    "situacion": ""
   },
   {
     "cn": "209182",
@@ -1365,6 +1535,7 @@
     "pvp": 2.9,
     "euro": 1.97,
     "margen": 68,
-    "categoria": "TIRITAS Y APOSITOS"
+    "categoria": "TIRITAS Y APOSITOS",
+    "situacion": "CAJON CURAS"
   }
 ]

@@ -74,13 +74,16 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')})"
+            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
+            + (f", ubicación {p['situacion']}" if p.get('situacion') else "") + ")"
             for p in top_margen)
         contexto = (
             "\n\nLista de productos de nuestra farmacia con lo que deja cada uno (€/ud = PVP "
-            "− coste, y % de margen). Si alguno encaja de forma clínicamente apropiada, "
-            "priorízalo (primero los que más € dejan; NUNCA fuerces algo que no aporte "
-            "valor) e INCLUYE su CN, sus €/ud y su % al citarlo: " + items)
+            "− coste, y % de margen) y su ubicación física en la farmacia. Si alguno encaja "
+            "de forma clínicamente apropiada, priorízalo (primero los que más € dejan; NUNCA "
+            "fuerces algo que no aporte valor) e INCLUYE al citarlo su CN, la 'Calidad €' "
+            "(euros que deja), el 'Margen %' y, sutilmente, su ubicación (ej. 📍E5) si la "
+            "tienes: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
@@ -107,16 +110,18 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')})"
+            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
+            + (f", ubicación {p['situacion']}" if p.get('situacion') else "") + ")"
             for p in top_margen)
         contexto = (
             "\n\nLista de productos de nuestra farmacia con lo que deja cada uno (€/ud = PVP "
-            "− coste, y % de margen). Cuando recomiendes, si en esta lista hay algo "
-            "clínicamente apropiado para el síntoma, priorízalo (primero los que más € "
-            "dejan) e incluye su CN, sus €/ud y su %. Si para ese síntoma NO hay nada "
-            "apropiado en la lista, recomienda IGUALMENTE el producto de venta libre "
-            "habitual (sin inventar cifras de margen). NUNCA digas que la farmacia no tiene "
-            "nada: " + items)
+            "− coste, y % de margen) y su ubicación física. Cuando recomiendes, si en esta "
+            "lista hay algo clínicamente apropiado para el síntoma, priorízalo (primero los "
+            "que más € dejan) e incluye su CN, la 'Calidad €' (euros que deja), el "
+            "'Margen %' y, sutilmente, su ubicación (ej. 📍E5) si la tienes. Si para ese "
+            "síntoma NO hay nada apropiado en la lista, recomienda IGUALMENTE el producto de "
+            "venta libre habitual (sin inventar cifras de margen). NUNCA digas que la "
+            "farmacia no tiene nada: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
