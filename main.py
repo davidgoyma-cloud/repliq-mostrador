@@ -74,12 +74,13 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] ({p.get('categoria','')}, margen {p.get('margen','?')}%)"
+            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud, {p.get('categoria','')})"
             for p in top_margen[:20])
         contexto = (
-            "\n\nEstos productos de nuestra farmacia dejan buen margen. Si alguno encaja "
-            "de forma clínicamente apropiada, priorízalo (NUNCA fuerces algo que no aporte "
-            "valor) e INCLUYE su Código Nacional (CN) entre paréntesis al citarlo: " + items)
+            "\n\nEstos productos de nuestra farmacia dejan muchos EUROS por venta (calidad "
+            "de euro = PVP − coste). Si alguno encaja de forma clínicamente apropiada, "
+            "priorízalo (NUNCA fuerces algo que no aporte valor) e INCLUYE su Código "
+            "Nacional (CN) entre paréntesis al citarlo: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
@@ -106,12 +107,13 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] ({p.get('categoria','')}, margen {p.get('margen','?')}%)"
+            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud, {p.get('categoria','')})"
             for p in top_margen[:25])
         contexto = (
-            "\n\nProductos de nuestra farmacia con buen margen; priorízalos SI son "
-            "clínicamente apropiados para el síntoma (nunca fuerces algo inadecuado) e "
-            "INCLUYE su Código Nacional (CN) entre paréntesis al citarlo: " + items)
+            "\n\nProductos de nuestra farmacia que dejan muchos EUROS por venta (calidad de "
+            "euro = PVP − coste); priorízalos SI son clínicamente apropiados para el síntoma "
+            "(nunca fuerces algo inadecuado) e INCLUYE su Código Nacional (CN) entre "
+            "paréntesis al citarlo: " + items)
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
@@ -120,11 +122,15 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
         system=(
             "Eres farmacéutico en España atendiendo en el mostrador. Ante un SÍNTOMA o "
             "patología LEVE de indicación farmacéutica, recomiendas productos SIN receta "
-            "(medicamentos EFP/publicitarios y parafarmacia) apropiados para aliviarlo, "
-            "PRIORIZANDO los de mejor margen de la farmacia cuando sea clínicamente adecuado. "
+            "(medicamentos EFP/publicitarios y parafarmacia) apropiados para aliviarlo. "
+            "Para cada necesidad ofrece entre 2 y 3 OPCIONES alternativas válidas, "
+            "ORDENADAS de MAYOR a MENOR CALIDAD DE EURO (euros que deja la venta = PVP − "
+            "coste; primero la que más € deja), indicando los € que deja y el CN cuando lo "
+            "tengas de la lista. Solo "
+            "productos clínicamente apropiados; nunca fuerces algo inadecuado. "
             "SIEMPRE de forma responsable: al final indica brevemente los SIGNOS DE ALARMA por "
             "los que hay que DERIVAR AL MÉDICO y no automedicar. Responde en español, en "
-            "viñetas cortas: producto -> para qué / cómo se usa."
+            "viñetas cortas: producto (€/ud · CN) -> para qué / cómo se usa."
         ),
         messages=[{"role": "user", "content":
                    f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
