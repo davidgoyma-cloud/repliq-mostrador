@@ -22,7 +22,7 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI(title="Mostrador · Venta cruzada")
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
-MODELO = "claude-opus-4-8"
+MODELO = "claude-haiku-4-5-20251001"
 
 VENTA_CRUZADA = [
     {"cuando": "Antibiótico oral", "ofrece": "Probiótico", "motivo": "Repone la flora intestinal que el antibiótico daña y evita diarreas."},
@@ -101,9 +101,12 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
             "cada uno con un motivo clínico o práctico breve. Responde en español, en "
             "viñetas cortas."
         ),
-        messages=[{"role": "user", "content":
-                   f"¿Qué venta cruzada tiene sentido si un cliente se lleva: {producto}?"
-                   + contexto}],
+        messages=[{"role": "user", "content": (
+            ([{"type": "text", "text": contexto,
+               "cache_control": {"type": "ephemeral"}}] if contexto else [])
+            + [{"type": "text", "text":
+                f"¿Qué venta cruzada tiene sentido si un cliente se lleva: {producto}?"}]
+        )}],
     )
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
 
@@ -148,9 +151,13 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
             "viñetas cortas, con el nombre, CN y ubicación en NEGRITA: **NOMBRE** · Calidad €: "
             "X € · Margen: Y% · CN **ZZZ** · 📍**SIT** -> para qué / cómo se usa."
         ),
-        messages=[{"role": "user", "content":
-                   f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
-                   "receta), priorizando el margen?" + contexto}],
+        messages=[{"role": "user", "content": (
+            ([{"type": "text", "text": contexto,
+               "cache_control": {"type": "ephemeral"}}] if contexto else [])
+            + [{"type": "text", "text":
+                f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
+                "receta), priorizando la calidad de euro y el margen?"}]
+        )}],
     )
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
 
