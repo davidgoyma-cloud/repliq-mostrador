@@ -1,101 +1,11 @@
 [
  {
-  "cn": "105929",
-  "producto": "ANDADOR INVICTO ROJO RUEDAS 360",
-  "pvp": 234.9,
-  "euro": 109.07,
-  "margen": 46,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "221154",
-  "producto": "TYRO ENERGY 180 CAPSULAS",
-  "pvp": 78.9,
-  "euro": 78.39,
-  "margen": 99,
-  "categoria": "Dietetica",
-  "situacion": "",
-  "stock": 6
- },
- {
-  "cn": "221129",
-  "producto": "SILLA DE RUEDAS ALUMINIO APOSAN DYNAMIC 1 UNIDAD",
-  "pvp": 250.0,
-  "euro": 75.04,
-  "margen": 30,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "192217",
-  "producto": "ANDADOR ROLLATOR ROJO FRENO POR PRESION  MOBIC",
-  "pvp": 135.0,
-  "euro": 74.9,
-  "margen": 55,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "012704",
-  "producto": "ALMOHADA CERVICAL VISCO 70 CM",
-  "pvp": 125.0,
-  "euro": 49.57,
-  "margen": 40,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "289569",
-  "producto": "OLISTIC NEXT PACK X3",
-  "pvp": 132.0,
-  "euro": 47.54,
-  "margen": 36,
-  "categoria": "NUTRICAPILAR",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "469452",
   "producto": "ABSORB INC ORINA NOC ANAT ABS PANTS T- MED 80 U",
   "pvp": 43.91,
   "euro": 43.9,
   "margen": 100,
   "categoria": "Efectos SS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "289570",
-  "producto": "OLISTIC WOMEN PACK X3",
-  "pvp": 120.0,
-  "euro": 43.3,
-  "margen": 36,
-  "categoria": "NUTRICAPILAR",
-  "situacion": "",
-  "stock": 2
- },
- {
-  "cn": "016998",
-  "producto": "SENSILIS PACK SOS SKIN RESCUE CREMA Y SERUM",
-  "pvp": 68.9,
-  "euro": 43.27,
-  "margen": 63,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 3
- },
- {
-  "cn": "002845",
-  "producto": "PEDALIER ELECTRICAO MINI BIKE",
-  "pvp": 95.9,
-  "euro": 41.7,
-  "margen": 43,
-  "categoria": "ORTOPEDIA AYUDAS",
   "situacion": "",
   "stock": 1
  },
@@ -110,402 +20,12 @@
   "stock": 1
  },
  {
-  "cn": "001422",
-  "producto": "ZAPATO SUECOS ALMA VELCRO GRIS T. 38",
-  "pvp": 89.9,
-  "euro": 33.24,
-  "margen": 37,
-  "categoria": "ZAPATOS",
-  "situacion": "MESA 3",
-  "stock": 1
- },
- {
-  "cn": "002745",
-  "producto": "PACK ENDOCARE TENSAGE SERUM+CONTORNO",
-  "pvp": 91.9,
-  "euro": 32.72,
-  "margen": 36,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 2
- },
- {
-  "cn": "002884",
-  "producto": "SAGUYS CALZADO SRA 20723 BEIGE T. 39",
-  "pvp": 105.0,
-  "euro": 32.18,
-  "margen": 31,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002875",
-  "producto": "CALZAMEDI 0823 NEGRO BIO CONFORT T. 37",
-  "pvp": 94.5,
-  "euro": 31.34,
-  "margen": 33,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002892",
-  "producto": "CALZAMEDI CALZADO DEPORTIVO CORD. PLATA T.40",
-  "pvp": 120.0,
-  "euro": 30.99,
-  "margen": 26,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002889",
-  "producto": "SAGUYS CALZADO CONFORT SRA. VERDE 20725 T.38",
-  "pvp": 94.5,
-  "euro": 29.0,
-  "margen": 31,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002880",
-  "producto": "CALZAMEDI BIO CONFORT 0825 KAKI T. 38",
-  "pvp": 94.5,
-  "euro": 29.0,
-  "margen": 31,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002881",
-  "producto": "CALZAMEDI BIO CONFORT SEÑORA 825 AZUL T. 38",
-  "pvp": 94.5,
-  "euro": 29.0,
-  "margen": 31,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "098058",
-  "producto": "GARCIA BARRA ABATIBLE BA O CROMADA 18X10",
-  "pvp": 59.9,
-  "euro": 28.76,
-  "margen": 48,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002882",
-  "producto": "CALZAMEDI ZAPATO SEÑORA BIO 833 BEIGE T. 39",
-  "pvp": 87.5,
-  "euro": 27.46,
-  "margen": 31,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "205586",
-  "producto": "EXTRACTOR ELECTRICO DE LECHE MATERNA APOSAN MATE",
-  "pvp": 79.9,
-  "euro": 27.44,
-  "margen": 34,
-  "categoria": "ACCESORIOS INFANTIL",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002765",
-  "producto": "CALZAMEDI SRA DIABETICO 0752 MORADO T.42",
-  "pvp": 86.5,
-  "euro": 27.37,
-  "margen": 32,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002883",
-  "producto": "SAGUYS SANDALIA BIO CONFORT 20712 TEJA T. 40",
-  "pvp": 87.5,
-  "euro": 25.79,
-  "margen": 29,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "000503",
-  "producto": "VIDABRA TOP TALLA M NEGRO",
-  "pvp": 69.5,
-  "euro": 25.46,
-  "margen": 37,
-  "categoria": "ORTO ARTICULACIONES",
-  "situacion": "O2",
-  "stock": 1
- },
- {
-  "cn": "000505",
-  "producto": "VIDABRA TOP TALLA L NEGRO",
-  "pvp": 69.5,
-  "euro": 25.46,
-  "margen": 37,
-  "categoria": "ORTO ARTICULACIONES",
-  "situacion": "O2",
-  "stock": 1
- },
- {
-  "cn": "609910",
-  "producto": "VIDABRA TOP TALLA M CARNE",
-  "pvp": 69.5,
-  "euro": 25.46,
-  "margen": 37,
-  "categoria": "ORTO ARTICULACIONES",
-  "situacion": "O2",
-  "stock": 1
- },
- {
-  "cn": "001695",
-  "producto": "CALZADO BIO CONFORT 0781 SRA ROSA T.39",
-  "pvp": 100.9,
-  "euro": 25.31,
-  "margen": 25,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "000760",
-  "producto": "W100 2KG CHOCOLATE SFY",
-  "pvp": 72.0,
-  "euro": 25.1,
-  "margen": 35,
-  "categoria": "NUTRI DEPORTIVA",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "002494",
   "producto": "MUSTELA MOCHILA FAMILY ADVENTURES PASTEL",
   "pvp": 59.9,
   "euro": 25.07,
   "margen": 42,
   "categoria": "DERMO INFANTIL",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "199177",
-  "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
-  "pvp": 49.9,
-  "euro": 24.72,
-  "margen": 50,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "001441",
-  "producto": "CALZADO PROF NEGRO 41 21014",
-  "pvp": 69.9,
-  "euro": 24.59,
-  "margen": 35,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "199178",
-  "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
-  "pvp": 49.9,
-  "euro": 24.22,
-  "margen": 49,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "C2",
-  "stock": 2
- },
- {
-  "cn": "199179",
-  "producto": "FAJA SACROLUMBAR ACTIMOVE SPORT EDITION FERULAS",
-  "pvp": 49.9,
-  "euro": 24.22,
-  "margen": 49,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 3
- },
- {
-  "cn": "002527",
-  "producto": "CALZADO PROF BLANCO 41 21014",
-  "pvp": 69.0,
-  "euro": 23.82,
-  "margen": 35,
-  "categoria": "ZAPATOS",
-  "situacion": "MESA 3",
-  "stock": 1
- },
- {
-  "cn": "101091",
-  "producto": "FERULA INMOVILIZADORA PULGAR TMC150 DCHA TL",
-  "pvp": 42.95,
-  "euro": 23.59,
-  "margen": 55,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "CAJONE. ORTO",
-  "stock": 1
- },
- {
-  "cn": "269142",
-  "producto": "FAJA LUMBOSACRA CLASICA FARMALASTIC 1 UNIDAD TAL",
-  "pvp": 49.9,
-  "euro": 23.58,
-  "margen": 47,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O5",
-  "stock": 1
- },
- {
-  "cn": "269126",
-  "producto": "FAJA LUMBOSACRA CLASICA FARMALASTIC 1 UNIDAD TAL",
-  "pvp": 49.9,
-  "euro": 23.58,
-  "margen": 47,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "208227",
-  "producto": "ISDINCEUTICS RETINAL INTENSE 50ML",
-  "pvp": 69.9,
-  "euro": 23.55,
-  "margen": 34,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "225784",
-  "producto": "SENSILIS PEPTIDE NAD+ PDRN 1 TUBO 30 ML",
-  "pvp": 68.9,
-  "euro": 23.47,
-  "margen": 34,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 6
- },
- {
-  "cn": "656457",
-  "producto": "NICORETTE 2 MG 210 CHICLES MEDICAMENTOSOS",
-  "pvp": 71.95,
-  "euro": 23.47,
-  "margen": 33,
-  "categoria": "EFP TABACO",
-  "situacion": "M7",
-  "stock": 1
- },
- {
-  "cn": "102409",
-  "producto": "LTG305 T3 83-91 FAJA LUMBITRON ELITE DUO",
-  "pvp": 72.4,
-  "euro": 23.37,
-  "margen": 32,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O1",
-  "stock": 1
- },
- {
-  "cn": "001287",
-  "producto": "GOAH PACK SOL",
-  "pvp": 69.9,
-  "euro": 23.23,
-  "margen": 33,
-  "categoria": "NUTRISOLAR",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "001093",
-  "producto": "COJIN CUÑA POSTURAL 50X60X20",
-  "pvp": 49.9,
-  "euro": 23.22,
-  "margen": 47,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O2",
-  "stock": 2
- },
- {
-  "cn": "131378",
-  "producto": "SURA VITASAN MITO ATP 90 CAPS",
-  "pvp": 69.9,
-  "euro": 23.13,
-  "margen": 33,
-  "categoria": "MULTIVITAMINAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "002530",
-  "producto": "CALZADO SPORT MORADO 39 0742-M",
-  "pvp": 69.0,
-  "euro": 22.56,
-  "margen": 33,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "219879",
-  "producto": "ENDOCARE RADIANCE C FERULIC SERUM GEL 1 ENVASE 3",
-  "pvp": 63.9,
-  "euro": 22.44,
-  "margen": 35,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "064186",
-  "producto": "AYUDAS COJIN VISCO FORM 41X41X8CM C7-41",
-  "pvp": 59.9,
-  "euro": 22.0,
-  "margen": 37,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O2",
-  "stock": 1
- },
- {
-  "cn": "208228",
-  "producto": "ISDINCEUTICS MELACLEAR 1 FRASCO 30 ML",
-  "pvp": 63.9,
-  "euro": 21.66,
-  "margen": 34,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "102210",
-  "producto": "TABURETE ASIENTO DUCHA MOBICLINIC PRIM",
-  "pvp": 59.0,
-  "euro": 21.45,
-  "margen": 36,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "505202",
-  "producto": "NUTAVANT PLUS FIBRA 24 BOTELLAS 250 ML MULTISABO",
-  "pvp": 161.52,
-  "euro": 20.97,
-  "margen": 13,
-  "categoria": "DIETOTERAPEUTICOS",
   "situacion": "",
   "stock": 1
  },
@@ -528,26 +48,6 @@
   "categoria": "Dermocosmetica ADULTOS",
   "situacion": "",
   "stock": 2
- },
- {
-  "cn": "002608",
-  "producto": "PROTEINA ANABOLIC POWER WOD CHOCOLATE",
-  "pvp": 64.9,
-  "euro": 20.8,
-  "margen": 32,
-  "categoria": "NUTRI DEPORTIVA",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "191489",
-  "producto": "NEBULIZADOR DE COMPRESOR APOSAN",
-  "pvp": 59.9,
-  "euro": 20.73,
-  "margen": 35,
-  "categoria": "APARATOLOGIA",
-  "situacion": "I3",
-  "stock": 1
  },
  {
   "cn": "725367",
@@ -700,16 +200,6 @@
   "stock": 1
  },
  {
-  "cn": "197967",
-  "producto": "ESENTIAL MIST HUMIDIFICADOR DIFUSOR INTERSA",
-  "pvp": 36.9,
-  "euro": 19.01,
-  "margen": 52,
-  "categoria": "APARATOLOGIA",
-  "situacion": "",
-  "stock": 4
- },
- {
   "cn": "199021",
   "producto": "NHCO AMINOHAIR 168 CAPSULAS",
   "pvp": 42.9,
@@ -720,16 +210,6 @@
   "stock": 7
  },
  {
-  "cn": "001918",
-  "producto": "OMEGA 3 EXTRA PURE 120 PERLAS ESI",
-  "pvp": 56.9,
-  "euro": 18.78,
-  "margen": 33,
-  "categoria": "COLESTEROL OMEGAS",
-  "situacion": "M1",
-  "stock": 6
- },
- {
   "cn": "002550",
   "producto": "IVB MAGNESIO TOTAL 180 CAPS",
   "pvp": 53.9,
@@ -738,6 +218,16 @@
   "categoria": "Dietetica",
   "situacion": "",
   "stock": 4
+ },
+ {
+  "cn": "001918",
+  "producto": "OMEGA 3 EXTRA PURE 120 PERLAS ESI",
+  "pvp": 56.9,
+  "euro": 18.78,
+  "margen": 33,
+  "categoria": "COLESTEROL OMEGAS",
+  "situacion": "M1",
+  "stock": 6
  },
  {
   "cn": "720414",
@@ -758,16 +248,6 @@
   "categoria": "Dermocosmetica ADULTOS",
   "situacion": "M13",
   "stock": 2
- },
- {
-  "cn": "100594",
-  "producto": "MUÑEQUERA PULGAR LARGA DCHA TL MQ415/MFPD80",
-  "pvp": 32.45,
-  "euro": 18.34,
-  "margen": 57,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
  },
  {
   "cn": "346823",
@@ -850,16 +330,6 @@
   "stock": 2
  },
  {
-  "cn": "000865",
-  "producto": "CALZADO PROFESIONAL T40 21019-N",
-  "pvp": 69.9,
-  "euro": 17.27,
-  "margen": 25,
-  "categoria": "ZAPATOS",
-  "situacion": "",
-  "stock": 3
- },
- {
   "cn": "214305",
   "producto": "SKIN RESIST SENSAGE SERUM 1 ENVASE 30 ML",
   "pvp": 48.5,
@@ -887,16 +357,6 @@
   "margen": 35,
   "categoria": "SOLAR CUERPO",
   "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "102730",
-  "producto": "OV02D500 TS CALCETIN TECNICO COMPRESION",
-  "pvp": 35.0,
-  "euro": 17.13,
-  "margen": 49,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O2",
   "stock": 1
  },
  {
@@ -946,26 +406,6 @@
   "euro": 17.01,
   "margen": 34,
   "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "269134",
-  "producto": "FAJA LUMBOSACRA CLASICA FARMALASTIC 1 UNIDAD TAL",
-  "pvp": 49.9,
-  "euro": 16.99,
-  "margen": 34,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "009772",
-  "producto": "ELEVADOR WC 15CM S/TAPA 227815",
-  "pvp": 39.9,
-  "euro": 16.83,
-  "margen": 42,
-  "categoria": "ORTOPEDIA AYUDAS",
   "situacion": "",
   "stock": 1
  },
@@ -1050,16 +490,6 @@
   "stock": 2
  },
  {
-  "cn": "002682",
-  "producto": "MULETILLA EXT. LISA AZUL OSCURO P. RECTO",
-  "pvp": 29.9,
-  "euro": 16.65,
-  "margen": 56,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 2
- },
- {
   "cn": "590502",
   "producto": "CANUC 1,04 G 2 COLLARES MEDICAMENTOSOS PERROS GR",
   "pvp": 36.9,
@@ -1140,6 +570,16 @@
   "stock": 3
  },
  {
+  "cn": "165253",
+  "producto": "OFTAN MACULA OMEGA 90 CAPS",
+  "pvp": 51.0,
+  "euro": 15.96,
+  "margen": 31,
+  "categoria": "NUTRIOPTICA",
+  "situacion": "C22",
+  "stock": 1
+ },
+ {
   "cn": "212386",
   "producto": "EXTRACTOR MANUAL DE LECHE MATERNA APOSAN MATERNI",
   "pvp": 29.9,
@@ -1218,16 +658,6 @@
   "categoria": "NUTRICAPILAR",
   "situacion": "",
   "stock": 2
- },
- {
-  "cn": "002679",
-  "producto": "MULETILLA EXT. BEIGE P. DERBY",
-  "pvp": 29.9,
-  "euro": 15.7,
-  "margen": 53,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
  },
  {
   "cn": "188295",
@@ -1320,16 +750,6 @@
   "stock": 1
  },
  {
-  "cn": "222884",
-  "producto": "ENDOCARE RADIANCE VITAMIN C20 SERUM 1 ENVASE 30",
-  "pvp": 65.9,
-  "euro": 15.14,
-  "margen": 23,
-  "categoria": "Dermocosmetica ADULTOS",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "158367",
   "producto": "BRUDY MACULA 60 CAPS",
   "pvp": 45.9,
@@ -1380,16 +800,6 @@
   "stock": 1
  },
  {
-  "cn": "030482",
-  "producto": "MEDIVEN CALZADOR BUTLER OFF 6900362",
-  "pvp": 39.9,
-  "euro": 14.88,
-  "margen": 37,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O2",
-  "stock": 1
- },
- {
   "cn": "202271",
   "producto": "C20 BIOTIC SVR 1 ENVASE 50 ML",
   "pvp": 41.9,
@@ -1398,16 +808,6 @@
   "categoria": "Dermocosmetica ADULTOS",
   "situacion": "",
   "stock": 2
- },
- {
-  "cn": "217994",
-  "producto": "TENSIOMETRO DIGITAL DE BRAZO APOSAN 1 UNIDAD",
-  "pvp": 44.9,
-  "euro": 14.81,
-  "margen": 33,
-  "categoria": "APARATOLOGIA",
-  "situacion": "",
-  "stock": 1
  },
  {
   "cn": "476040",
@@ -1440,16 +840,6 @@
   "stock": 3
  },
  {
-  "cn": "215214",
-  "producto": "ERYFOTONA NIGHT 50ML",
-  "pvp": 34.9,
-  "euro": 14.73,
-  "margen": 42,
-  "categoria": "SOLAR FACIAL",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "103204",
   "producto": "NECTAR QI 300G NALE",
   "pvp": 42.9,
@@ -1460,13 +850,13 @@
   "stock": 1
  },
  {
-  "cn": "002108",
-  "producto": "ERGYCELL NUTERGIA 90 CAPSULAS",
-  "pvp": 42.9,
-  "euro": 14.7,
-  "margen": 34,
-  "categoria": "INMUN PROBIOTICOS",
-  "situacion": "E4",
+  "cn": "215214",
+  "producto": "ERYFOTONA NIGHT 50ML",
+  "pvp": 34.9,
+  "euro": 14.73,
+  "margen": 42,
+  "categoria": "SOLAR FACIAL",
+  "situacion": "",
   "stock": 1
  },
  {
@@ -1477,6 +867,16 @@
   "margen": 40,
   "categoria": "VET ANTIPARASITARIO",
   "situacion": "E7",
+  "stock": 1
+ },
+ {
+  "cn": "002108",
+  "producto": "ERGYCELL NUTERGIA 90 CAPSULAS",
+  "pvp": 42.9,
+  "euro": 14.7,
+  "margen": 34,
+  "categoria": "INMUN PROBIOTICOS",
+  "situacion": "E4",
   "stock": 1
  },
  {
@@ -1528,16 +928,6 @@
   "categoria": "NUTRISOLAR",
   "situacion": "",
   "stock": 8
- },
- {
-  "cn": "045164",
-  "producto": "AYUDAS ELEVADOR WC 10 CM C/TAPA S/REPOSA",
-  "pvp": 39.9,
-  "euro": 14.33,
-  "margen": 36,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
  },
  {
   "cn": "031467",
@@ -1620,14 +1010,14 @@
   "stock": 1
  },
  {
-  "cn": "213460",
-  "producto": "NUTRALIE WOMEN COMPLEX 90 CAPSULAS",
+  "cn": "211324",
+  "producto": "NUTRALIE RED YEAST RICE COMPLEX 90 CAPSULAS",
   "pvp": 24.9,
   "euro": 14.09,
   "margen": 57,
-  "categoria": "MULTIVITAMINAS",
-  "situacion": "",
-  "stock": 1
+  "categoria": "Dietetica",
+  "situacion": "C22",
+  "stock": 3
  },
  {
   "cn": "211098",
@@ -1650,14 +1040,14 @@
   "stock": 3
  },
  {
-  "cn": "211324",
-  "producto": "NUTRALIE RED YEAST RICE COMPLEX 90 CAPSULAS",
+  "cn": "213460",
+  "producto": "NUTRALIE WOMEN COMPLEX 90 CAPSULAS",
   "pvp": 24.9,
   "euro": 14.09,
   "margen": 57,
-  "categoria": "Dietetica",
-  "situacion": "C22",
-  "stock": 3
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "",
+  "stock": 1
  },
  {
   "cn": "308757",
@@ -1677,7 +1067,7 @@
   "margen": 58,
   "categoria": "INMUN PROBIOTICOS",
   "situacion": "M2",
-  "stock": 6
+  "stock": 5
  },
  {
   "cn": "207818",
@@ -1770,16 +1160,6 @@
   "stock": 1
  },
  {
-  "cn": "199185",
-  "producto": "CINTA AJUSTABLE PARA CODO ACTIMOVE SPORT EDITION",
-  "pvp": 26.5,
-  "euro": 13.65,
-  "margen": 52,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 2
- },
- {
   "cn": "200489",
   "producto": "SEIDIBION PRIME 30 CAPSULAS BLANDAS + 30 CAPSULA",
   "pvp": 39.9,
@@ -1848,16 +1228,6 @@
   "categoria": "NUTRIOPTICA",
   "situacion": "C22",
   "stock": 2
- },
- {
-  "cn": "013817",
-  "producto": "MULETILL PLEG NG P.PLASTIC 164",
-  "pvp": 29.9,
-  "euro": 13.39,
-  "margen": 45,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
  },
  {
   "cn": "002798",
@@ -1957,7 +1327,7 @@
   "margen": 60,
   "categoria": "MULTIVITAMINAS",
   "situacion": "C24",
-  "stock": 4
+  "stock": 3
  },
  {
   "cn": "208126",
@@ -1990,16 +1360,6 @@
   "stock": 3
  },
  {
-  "cn": "215450",
-  "producto": "SUAVINEX MOCHILA INFANTIL LEON 1 ENVASE CREMA DE",
-  "pvp": 42.9,
-  "euro": 13.12,
-  "margen": 31,
-  "categoria": "DERMO INFANTIL",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "001545",
   "producto": "CALCETIN FASCITIS CONTROL PRONACION TALLA XL",
   "pvp": 29.9,
@@ -2007,6 +1367,16 @@
   "margen": 44,
   "categoria": "ORTO ARTICULACIONES",
   "situacion": "O2",
+  "stock": 1
+ },
+ {
+  "cn": "215450",
+  "producto": "SUAVINEX MOCHILA INFANTIL LEON 1 ENVASE CREMA DE",
+  "pvp": 42.9,
+  "euro": 13.12,
+  "margen": 31,
+  "categoria": "DERMO INFANTIL",
+  "situacion": "",
   "stock": 1
  },
  {
@@ -2028,16 +1398,6 @@
   "categoria": "DOLORF ORAL",
   "situacion": "",
   "stock": 7
- },
- {
-  "cn": "326843",
-  "producto": "FLORADIX ELIXIR 500 ML",
-  "pvp": 35.9,
-  "euro": 13.07,
-  "margen": 36,
-  "categoria": "FITOTERAPIA",
-  "situacion": "C25",
-  "stock": 1
  },
  {
   "cn": "002025",
@@ -2200,46 +1560,6 @@
   "stock": 2
  },
  {
-  "cn": "182724",
-  "producto": "ALMOHADILLA ELECTRICA APOSAN",
-  "pvp": 37.9,
-  "euro": 12.71,
-  "margen": 34,
-  "categoria": "APARATOLOGIA",
-  "situacion": "O2",
-  "stock": 1
- },
- {
-  "cn": "199144",
-  "producto": "CODERA ELASTICA ACTIMOVE EVERYDAY SUPPORT 1 UNID",
-  "pvp": 23.9,
-  "euro": 12.66,
-  "margen": 53,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "199145",
-  "producto": "CODERA ELASTICA ACTIMOVE EVERYDAY SUPPORT 1 UNID",
-  "pvp": 23.9,
-  "euro": 12.66,
-  "margen": 53,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "199146",
-  "producto": "CODERA ELASTICA ACTIMOVE EVERYDAY SUPPORT 1 UNID",
-  "pvp": 23.9,
-  "euro": 12.66,
-  "margen": 53,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "002795",
   "producto": "IVB FIBER TOTAL NEUTRA 120 GR",
   "pvp": 28.9,
@@ -2317,16 +1637,6 @@
   "margen": 23,
   "categoria": "Efectos SS",
   "situacion": "",
-  "stock": 1
- },
- {
-  "cn": "051024",
-  "producto": "CALZADOR PONEMEDIA EXTEN 23092",
-  "pvp": 27.9,
-  "euro": 12.4,
-  "margen": 44,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "O1",
   "stock": 1
  },
  {
@@ -2410,26 +1720,6 @@
   "stock": 1
  },
  {
-  "cn": "199172",
-  "producto": "ESTABILIZADOR DEL PULGAR ACTIMOVE SPORT EDITION",
-  "pvp": 23.9,
-  "euro": 12.23,
-  "margen": 51,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 2
- },
- {
-  "cn": "199175",
-  "producto": "ESTABILIZADOR DEL PULGAR ACTIMOVE SPORT EDITION",
-  "pvp": 23.9,
-  "euro": 12.23,
-  "margen": 51,
-  "categoria": "ORTOPEDIA AYUDAS",
-  "situacion": "",
-  "stock": 1
- },
- {
   "cn": "002570",
   "producto": "ASHWAGANDHA 60 CAPS SOLARAY",
   "pvp": 25.9,
@@ -2498,5 +1788,715 @@
   "categoria": "CORPORAL",
   "situacion": "CREMAS 3",
   "stock": 1
+ },
+ {
+  "cn": "011364",
+  "producto": "TOBILLER PEDIAT T2 6-12 OP1190",
+  "pvp": 29.9,
+  "euro": 12.11,
+  "margen": 41,
+  "categoria": "ORTO ARTICULACIONES",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "002313",
+  "producto": "ZUECO EVA BLANCO 21005 N 36",
+  "pvp": 35.0,
+  "euro": 12.09,
+  "margen": 35,
+  "categoria": "ZAPATOS",
+  "situacion": "MESA 3",
+  "stock": 1
+ },
+ {
+  "cn": "199171",
+  "producto": "MUÑEQUERA FERULA ACTIMOVE SPORT EDITION METALICA",
+  "pvp": 24.9,
+  "euro": 12.09,
+  "margen": 49,
+  "categoria": "ORTO ARTICULACIONES",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "163330",
+  "producto": "PLANTILLAS HERBI FEET SIFTAL LARGA 45/46",
+  "pvp": 35.0,
+  "euro": 12.07,
+  "margen": 34,
+  "categoria": "ORTO BAZAR PIES",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "012444",
+  "producto": "EUCERIN DUPLO OIL CONTROL DRY TOUCH FPS50",
+  "pvp": 34.9,
+  "euro": 12.06,
+  "margen": 35,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "",
+  "stock": 5
+ },
+ {
+  "cn": "012445",
+  "producto": "EUCERIN DUPLO GEL DRYTOUCH SPF50",
+  "pvp": 34.9,
+  "euro": 12.06,
+  "margen": 35,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "002803",
+  "producto": "APIVITA ROYAL ELIXIR SERUM 250 ML",
+  "pvp": 35.9,
+  "euro": 12.02,
+  "margen": 33,
+  "categoria": "HIGIENE CAPILAR",
+  "situacion": "",
+  "stock": 4
+ },
+ {
+  "cn": "001437",
+  "producto": "KAL OMEGA 3 450/300 SOLARAY 60 PERLAS",
+  "pvp": 30.9,
+  "euro": 12.01,
+  "margen": 39,
+  "categoria": "COLESTEROL OMEGAS",
+  "situacion": "E3",
+  "stock": 2
+ },
+ {
+  "cn": "196079",
+  "producto": "MULTICENTRUM HOMBRE 50+ 90 COMPRIMIDOS",
+  "pvp": 32.9,
+  "euro": 11.97,
+  "margen": 36,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "C3",
+  "stock": 4
+ },
+ {
+  "cn": "211074",
+  "producto": "SVR SEBIACLEAR AMPOULE FLASH 30 ML",
+  "pvp": 34.9,
+  "euro": 11.96,
+  "margen": 34,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "M14",
+  "stock": 6
+ },
+ {
+  "cn": "186125",
+  "producto": "AUTOTEST VIH 1 U",
+  "pvp": 36.9,
+  "euro": 11.95,
+  "margen": 32,
+  "categoria": "Efectos LIBRE",
+  "situacion": "C6",
+  "stock": 1
+ },
+ {
+  "cn": "219570",
+  "producto": "AMINOTRIVEPLAN 84 CAPSULAS",
+  "pvp": 27.9,
+  "euro": 11.93,
+  "margen": 43,
+  "categoria": "NUTRI ADELGAZAMIENTO",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "163117",
+  "producto": "PLANTILLAS HERBI FEET SIFTAL LARGA 39/40",
+  "pvp": 29.9,
+  "euro": 11.9,
+  "margen": 40,
+  "categoria": "ORTO BAZAR PIES",
+  "situacion": "O3",
+  "stock": 2
+ },
+ {
+  "cn": "157680",
+  "producto": "TIRAS REACTIVAS GLUCEMIA ONETOUCH VERIO 50 U",
+  "pvp": 43.03,
+  "euro": 11.87,
+  "margen": 28,
+  "categoria": "TIRAS REACTIVAS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "187164",
+  "producto": "ACCU CHECK INSTANT 50 TIRAS",
+  "pvp": 47.1,
+  "euro": 11.86,
+  "margen": 25,
+  "categoria": "TIRAS REACTIVAS",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "664952",
+  "producto": "COLA DE CABALLO ARKOPHARMA 190 MG 100 CAPSULAS",
+  "pvp": 18.51,
+  "euro": 11.83,
+  "margen": 64,
+  "categoria": "EFP CIRCULACION ORAL",
+  "situacion": "MTR1",
+  "stock": 1
+ },
+ {
+  "cn": "664444",
+  "producto": "PASIFLORA ARKOPHARMA 300 MG 84 CAPSULAS",
+  "pvp": 18.51,
+  "euro": 11.83,
+  "margen": 64,
+  "categoria": "EFP SUEÑO",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "672681",
+  "producto": "EQUINACEA ARKOPHARMA 250 MG 100 CAPSULAS",
+  "pvp": 18.51,
+  "euro": 11.83,
+  "margen": 64,
+  "categoria": "EFP",
+  "situacion": "MTR1",
+  "stock": 1
+ },
+ {
+  "cn": "216289",
+  "producto": "ARKOSUEÑO DORMIGUMMIES 30 CARAMELOS DE GOMA + 60",
+  "pvp": 25.8,
+  "euro": 11.83,
+  "margen": 46,
+  "categoria": "SUEÑO Y ANIMO",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "211100",
+  "producto": "NUTRALIE VITAMIN D3 + K2 COMPLEX 60 CAPSULAS",
+  "pvp": 20.9,
+  "euro": 11.82,
+  "margen": 57,
+  "categoria": "Dietetica",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "186660",
+  "producto": "HELIOCARE 360º SPF 50+ INVISIBLE SPRAY PROTECTOR",
+  "pvp": 25.9,
+  "euro": 11.82,
+  "margen": 46,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "E1",
+  "stock": 3
+ },
+ {
+  "cn": "164553",
+  "producto": "TALONERA ESPOLON SIFTAL CAZOLETA TALLA S",
+  "pvp": 19.9,
+  "euro": 11.81,
+  "margen": 59,
+  "categoria": "ORTO ARTICULACIONES",
+  "situacion": "O3",
+  "stock": 3
+ },
+ {
+  "cn": "002077",
+  "producto": "GREENFLOR 90 COMP NUTERGIA",
+  "pvp": 31.9,
+  "euro": 11.81,
+  "margen": 37,
+  "categoria": "Dietetica",
+  "situacion": "E4",
+  "stock": 2
+ },
+ {
+  "cn": "207945",
+  "producto": "NHCO AMINOVITAL 56 CAPSULAS",
+  "pvp": 27.9,
+  "euro": 11.79,
+  "margen": 42,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "E4",
+  "stock": 1
+ },
+ {
+  "cn": "208947",
+  "producto": "IRALTONE LOCION ANTICAIDA 1 ENVASE 100 ML",
+  "pvp": 35.9,
+  "euro": 11.77,
+  "margen": 33,
+  "categoria": "HIGIENE CAPILAR",
+  "situacion": "M10",
+  "stock": 1
+ },
+ {
+  "cn": "222671",
+  "producto": "ENDOCARE RENEWAL RETINOID SERUM 1 ENVASE 30 ML",
+  "pvp": 51.9,
+  "euro": 11.77,
+  "margen": 23,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "153801",
+  "producto": "MACA 45 CAPSULAS ARKO",
+  "pvp": 21.9,
+  "euro": 11.75,
+  "margen": 54,
+  "categoria": "FITOTERAPIA",
+  "situacion": "MTR1",
+  "stock": 4
+ },
+ {
+  "cn": "682475",
+  "producto": "GINKGO ARKOPHARMA 180 MG 200 CAPSULAS",
+  "pvp": 27.16,
+  "euro": 11.73,
+  "margen": 43,
+  "categoria": "EFP CIRCULACION ORAL",
+  "situacion": "C3",
+  "stock": 6
+ },
+ {
+  "cn": "001886",
+  "producto": "SOLARAY SEX UP MACA+CATAUBA 60 CAP",
+  "pvp": 25.9,
+  "euro": 11.72,
+  "margen": 45,
+  "categoria": "FITOTERAPIA",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "173214",
+  "producto": "RYM CICATRIZANTE 100 GR",
+  "pvp": 36.9,
+  "euro": 11.7,
+  "margen": 32,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "187270",
+  "producto": "NERVALA 30 CAPS",
+  "pvp": 31.5,
+  "euro": 11.67,
+  "margen": 37,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "C23",
+  "stock": 1
+ },
+ {
+  "cn": "163563",
+  "producto": "OPTICHAMBER DIAMOND CAMARA DE INHALACION CON MAS",
+  "pvp": 34.9,
+  "euro": 11.66,
+  "margen": 33,
+  "categoria": "Efectos LIBRE",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "212063",
+  "producto": "RECAMBIO ORAL-B PRO CEPILLO DENTAL ELECTRICO",
+  "pvp": 27.9,
+  "euro": 11.65,
+  "margen": 42,
+  "categoria": "BUC-CEPILLO MANUAL",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "212064",
+  "producto": "CEPILLO DENTAL ELECTRICO RECAMBIO ORAL-B SENSITI",
+  "pvp": 27.9,
+  "euro": 11.65,
+  "margen": 42,
+  "categoria": "BUC-CEPILLO MANUAL",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "202442",
+  "producto": "HELIOCARE 360º FLUID PROTECTOR SOLAR SPRAY SPF 5",
+  "pvp": 32.5,
+  "euro": 11.63,
+  "margen": 36,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "185912",
+  "producto": "LEVADURA ROJA DE ARROZ 250 MG 90 CAP WAYDIET",
+  "pvp": 24.9,
+  "euro": 11.6,
+  "margen": 47,
+  "categoria": "COLESTEROL OMEGAS",
+  "situacion": "C23",
+  "stock": 1
+ },
+ {
+  "cn": "194643",
+  "producto": "FERROSOL GOTAS FORTE 1 ENVASE 30 ML  + 1 SOBRE 2",
+  "pvp": 28.9,
+  "euro": 11.6,
+  "margen": 40,
+  "categoria": "Dietetica",
+  "situacion": "GOTAS 1",
+  "stock": 1
+ },
+ {
+  "cn": "086722",
+  "producto": "NUTERGIA ERGY-YAM CREMA 100 ML",
+  "pvp": 32.9,
+  "euro": 11.56,
+  "margen": 35,
+  "categoria": "CORPORAL",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "176296",
+  "producto": "TIRAS REACTIVAS GLUCEMIA ONETOUCH SELECT PLUS 1",
+  "pvp": 42.71,
+  "euro": 11.55,
+  "margen": 27,
+  "categoria": "TIRAS REACTIVAS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "222415",
+  "producto": "SENSILIS PREP 4 + POLISH 1 TARRO 40 ML",
+  "pvp": 31.9,
+  "euro": 11.55,
+  "margen": 36,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "194024",
+  "producto": "IMUNOGLUKAN JARABE 250ML",
+  "pvp": 35.9,
+  "euro": 11.5,
+  "margen": 32,
+  "categoria": "INMUN PROBIOTICOS",
+  "situacion": "",
+  "stock": 4
+ },
+ {
+  "cn": "032323",
+  "producto": "SVR DUO TOPIALYSE CREMA 400ML 2DA 40%",
+  "pvp": 32.9,
+  "euro": 11.49,
+  "margen": 35,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "E8",
+  "stock": 1
+ },
+ {
+  "cn": "105954",
+  "producto": "MY COKYL 90 COMP NUTERGIA",
+  "pvp": 31.9,
+  "euro": 11.48,
+  "margen": 36,
+  "categoria": "Dietetica",
+  "situacion": "E4",
+  "stock": 1
+ },
+ {
+  "cn": "193017",
+  "producto": "HELIOCARE 360º SPF 50+ PEDIATRICS ATOPIC LOTION",
+  "pvp": 32.9,
+  "euro": 11.47,
+  "margen": 35,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "E5",
+  "stock": 2
+ },
+ {
+  "cn": "177267",
+  "producto": "INMUNOK 30 CAPSULAS",
+  "pvp": 33.9,
+  "euro": 11.43,
+  "margen": 34,
+  "categoria": "INMUN PROBIOTICOS",
+  "situacion": "C23",
+  "stock": 1
+ },
+ {
+  "cn": "193015",
+  "producto": "HELIOCARE 360º SPF 50+ WATER GEL HIDRATACION LON",
+  "pvp": 30.9,
+  "euro": 11.35,
+  "margen": 37,
+  "categoria": "SOLAR FACIAL",
+  "situacion": "E2",
+  "stock": 3
+ },
+ {
+  "cn": "220644",
+  "producto": "SVR C EYE BIOTIC 15ML",
+  "pvp": 32.9,
+  "euro": 11.34,
+  "margen": 34,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "219594",
+  "producto": "NEOBIANACID 70 COMPRIMIDOS SABOR LIMON",
+  "pvp": 22.5,
+  "euro": 11.33,
+  "margen": 50,
+  "categoria": "DIGESTIVO ANTIACIDO",
+  "situacion": "",
+  "stock": 11
+ },
+ {
+  "cn": "012443",
+  "producto": "EUCERIN DUPLO KIDS GEL CREMA 200ML",
+  "pvp": 34.9,
+  "euro": 11.33,
+  "margen": 32,
+  "categoria": "SOLAR CUERPO",
+  "situacion": "",
+  "stock": 5
+ },
+ {
+  "cn": "194567",
+  "producto": "BEPANTHOL SENSICONTROL CREMA 400 ML",
+  "pvp": 32.9,
+  "euro": 11.32,
+  "margen": 34,
+  "categoria": "CORPORAL",
+  "situacion": "C20",
+  "stock": 1
+ },
+ {
+  "cn": "094068",
+  "producto": "SOLARAY MSM TURMERIC BOSWELIA DEVIL S CL",
+  "pvp": 22.9,
+  "euro": 11.32,
+  "margen": 49,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "009266",
+  "producto": "INMOVILIZADOR HOMBRO SLING SLG 100",
+  "pvp": 24.9,
+  "euro": 11.29,
+  "margen": 45,
+  "categoria": "ORTO ARTICULACIONES",
+  "situacion": "O1",
+  "stock": 1
+ },
+ {
+  "cn": "767809",
+  "producto": "DICLOFENACO SANDOZ CARE 23,2 MG/G GEL CUTANEO 1",
+  "pvp": 15.61,
+  "euro": 11.27,
+  "margen": 72,
+  "categoria": "ESPECIALIDADES",
+  "situacion": "",
+  "stock": 25
+ },
+ {
+  "cn": "211091",
+  "producto": "NUTRALIE MAGNESIUM COMPLEX 120 CAPSULAS",
+  "pvp": 19.9,
+  "euro": 11.26,
+  "margen": 57,
+  "categoria": "Dietetica",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "211322",
+  "producto": "NUTRALIE VITAMINA B12 COMPLEX 120 CAPS.",
+  "pvp": 19.9,
+  "euro": 11.26,
+  "margen": 57,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "211319",
+  "producto": "NUTRALIE OMEGA 3 60 CAPSULAS",
+  "pvp": 19.9,
+  "euro": 11.26,
+  "margen": 57,
+  "categoria": "COLESTEROL OMEGAS",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "213461",
+  "producto": "NUTRALIE ZINC + B6 120 CAPSULAS",
+  "pvp": 19.9,
+  "euro": 11.25,
+  "margen": 57,
+  "categoria": "Dietetica",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "165350",
+  "producto": "NEORETIN DISCROM SERUM FLUI 30",
+  "pvp": 38.5,
+  "euro": 11.24,
+  "margen": 29,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "M16",
+  "stock": 1
+ },
+ {
+  "cn": "173109",
+  "producto": "FONTACTIV FORTE VAIN 30G 14SOB",
+  "pvp": 21.9,
+  "euro": 11.21,
+  "margen": 51,
+  "categoria": "Dietetica",
+  "situacion": "",
+  "stock": 3
+ },
+ {
+  "cn": "210693",
+  "producto": "EUCERIN ANTIPIGMENT CREMA CONTORNO DE OJOS 1 TUB",
+  "pvp": 31.9,
+  "euro": 11.2,
+  "margen": 35,
+  "categoria": "Dermocosmetica ADULTOS",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "217796",
+  "producto": "AMINOSKIN CELLUVEN 1 ENVASE 500 ML NHCO",
+  "pvp": 26.9,
+  "euro": 11.19,
+  "margen": 42,
+  "categoria": "CIRCULACION ORAL",
+  "situacion": "",
+  "stock": 7
+ },
+ {
+  "cn": "211651",
+  "producto": "BIRETIX CLEANSER GEL LIMPIADOR PURIFICANTE 1 ENV",
+  "pvp": 26.5,
+  "euro": 11.17,
+  "margen": 42,
+  "categoria": "ACNE",
+  "situacion": "M16",
+  "stock": 1
+ },
+ {
+  "cn": "189945",
+  "producto": "INVERNESS PENDIENTE 24K 88C SOLITARIO CRISTAL VE",
+  "pvp": 21.5,
+  "euro": 11.15,
+  "margen": 52,
+  "categoria": "PENDIENTES",
+  "situacion": "",
+  "stock": 1
+ },
+ {
+  "cn": "725118",
+  "producto": "AMAPOLA DE CALIFORNIA ARKOPHARMA 300 MG 84 CAPSU",
+  "pvp": 18.52,
+  "euro": 11.14,
+  "margen": 60,
+  "categoria": "EFP SUEÑO",
+  "situacion": "",
+  "stock": 2
+ },
+ {
+  "cn": "206743",
+  "producto": "NHCO AMINOANTIOX 42 CAPSULAS",
+  "pvp": 24.9,
+  "euro": 11.14,
+  "margen": 45,
+  "categoria": "MULTIVITAMINAS",
+  "situacion": "E4",
+  "stock": 3
+ },
+ {
+  "cn": "201953",
+  "producto": "FISIOCANNABIS CREMAGEL 1 TUBO 200 G",
+  "pvp": 24.9,
+  "euro": 11.12,
+  "margen": 45,
+  "categoria": "DOLOR TOPICO",
+  "situacion": "M4",
+  "stock": 26
+ },
+ {
+  "cn": "022511",
+  "producto": "CUMLAUDE PACK CLX OVULOS E HIGIENTE INTIMA",
+  "pvp": 19.9,
+  "euro": 11.08,
+  "margen": 56,
+  "categoria": "MUJER INTIMO VAG",
+  "situacion": "E10",
+  "stock": 2
+ },
+ {
+  "cn": "221586",
+  "producto": "PROSTALAB COMPLEX PLUS 60CAP",
+  "pvp": 28.9,
+  "euro": 11.06,
+  "margen": 38,
+  "categoria": "Dietetica",
+  "situacion": "M11",
+  "stock": 3
+ },
+ {
+  "cn": "011411",
+  "producto": "GAFAS DE SOL ADULTO BADS",
+  "pvp": 24.9,
+  "euro": 11.03,
+  "margen": 44,
+  "categoria": "GAFAS SOL",
+  "situacion": "",
+  "stock": 14
+ },
+ {
+  "cn": "222964",
+  "producto": "AKTUVA AK 100 REPAIR CREAM SPF 50+ 1 ENVASE 50 M",
+  "pvp": 30.9,
+  "euro": 11.02,
+  "margen": 36,
+  "categoria": "SOLAR FACIAL",
+  "situacion": "",
+  "stock": 6
+ },
+ {
+  "cn": "216196",
+  "producto": "AVENE FLUIDO SPF 50 ANTIMANCHAS CON COLOR",
+  "pvp": 32.9,
+  "euro": 11.02,
+  "margen": 33,
+  "categoria": "SOLAR FACIAL",
+  "situacion": "",
+  "stock": 2
  }
 ]
