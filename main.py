@@ -22,7 +22,7 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI(title="Mostrador · Venta cruzada")
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
-MODELO = "claude-sonnet-5"
+MODELO = "claude-haiku-4-5-20251001"
 
 VENTA_CRUZADA = [
     {"cuando": "Antibiótico oral", "ofrece": "Probiótico", "motivo": "Repone la flora intestinal que el antibiótico daña y evita diarreas."},
