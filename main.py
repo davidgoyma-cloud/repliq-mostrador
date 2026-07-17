@@ -112,71 +112,46 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
 
 
 def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = None) -> str:
-    """Recomienda productos sin receta para un síntoma/patología leve, priorizando margen."""
+    """Recomienda OTC/parafarmacia para un síntoma leve, SOLO con productos que la
+    farmacia tiene en stock (búsqueda en el catálogo real)."""
     import anthropic
+    from retrieval import buscar_candidatos, contexto_candidatos
 
-    contexto = ""
-    if top_margen:
-        items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] (stock {p.get('stock','?')} ud, deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
-            + (f", ubicación {p['situacion']}" if p.get('situacion') else "") + ")"
-            for p in top_margen)
-        contexto = (
-            "\n\nLista de productos de nuestra farmacia con lo que deja cada uno (€/ud = PVP "
-            "− coste, y % de margen) y su ubicación física. Cuando recomiendes, si en esta "
-            "lista hay algo clínicamente apropiado para el síntoma, inclúyelo con este "
-            "formato EXACTO (negritas incluidas): «**NOMBRE PRODUCTO** · Calidad €: 5,04 € · "
-            "Margen: 73% · CN **701637** · 📍**E5**». Pon en NEGRITA el nombre, el CN y la "
-            "ubicación (📍), y usa literalmente 'Calidad €:' y 'Margen:'. Cuando des 2-3 "
-            "opciones, SEÑALA cuál es **mejor en Calidad €** y cuál **mejor en Margen** para "
-            "que el farmacéutico elija lo que considere. Si para ese síntoma NO hay nada "
-            "apropiado en la lista, recomienda IGUALMENTE el producto de venta libre habitual "
-            "(sin inventar cifras de margen). NUNCA digas que la farmacia no tiene nada: " + items)
+    ctx = contexto_candidatos(buscar_candidatos(sintoma, limite=40))
+    if ctx:
+        user = ("PRODUCTOS REALES DE LA FARMACIA para este caso (OTC/parafarmacia, EN STOCK). "
+                "Usa SOLO estos; no inventes otros productos ni CN:\n" + ctx +
+                "\n\nSíntoma del cliente: " + sintoma + "\n¿Qué le recomiendo?")
+    else:
+        user = ("Síntoma del cliente: " + sintoma + "\nNo tengo lista de stock para este caso: "
+                "nombra el tipo de producto OTC habitual, SIN inventar CN ni cifras.\n"
+                "¿Qué le recomiendo?")
 
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
         model=MODELO,
         max_tokens=420,
         system=(
-            "Eres farmacéutico en España atendiendo en el mostrador. Ante un SÍNTOMA o "
-            "patología LEVE de indicación farmacéutica, recomiendas productos SIN receta "
-            "(medicamentos EFP/publicitarios y parafarmacia) apropiados para aliviarlo. "
-            "Para cada necesidad ofrece entre 2 y 3 OPCIONES alternativas válidas y, entre "
-            "ellas, SEÑALA cuál es la mejor en Calidad € y cuál la mejor en Margen (el "
-            "farmacéutico elige la que considere). Recomienda SIEMPRE algo apropiado, aunque "
-            "no esté en la lista de margen; nunca digas que no hay producto. "
-            "PASO 1 — TRATAMIENTO DE PRIMERA LÍNEA: identifica el producto que un "
-            "farmacéutico vende DE VERDAD para ese síntoma y ponlo SIEMPRE el PRIMERO. "
-            "Ejemplos: alergia -> antihistamínico oral (cetirizina, loratadina, bilastina, "
-            "fexofenadina/Telfast); mucosidad o congestión -> mucolítico (acetilcisteína) o "
-            "descongestionante (Sinus/Vicks) + suero nasal; dolor o fiebre -> analgésico "
-            "(paracetamol/ibuprofeno); golpe/hematoma -> frío + gel de heparinoide/árnica; "
-            "acidez -> antiácido; herida -> antiséptico. Recomiéndalo AUNQUE no esté en la "
-            "lista de margen. "
-            "PASO 2 — COMPLEMENTOS: añade 1-2 productos complementarios apropiados (p. ej. "
-            "para 'alergia con granitos', además del antihistamínico, un limpiador/dermo "
-            "suave para la piel). "
-            "TUS DATOS DE MARGEN: para CADA producto que recomiendes, SI aparece en la lista "
-            "de la farmacia, muéstralo SIEMPRE con este formato EXACTO (negritas incluidas): "
-            "«**NOMBRE** · Calidad €: X € · Margen: Y% · CN **ZZZ** · 📍**SIT** — para qué». "
-            "Si un producto NO está en la lista, recomiéndalo igual por su nombre, sin cifras. "
-            "Cuando haya 2-3 opciones válidas para lo mismo, SEÑALA cuál es mejor en Calidad € "
-            "y cuál en Margen (el farmacéutico elige). "
-            "REGLAS: manda la adecuación clínica; el margen SOLO desempata entre opciones "
-            "válidas. NUNCA ofrezcas como opción principal aparatos/equipos (nebulizadores, "
-            "humidificadores, difusores, irrigadores, tensiómetros, ortopedia) ni cosméticos "
-            "antiedad para un problema agudo. "
-            "Responde MUY BREVE: UNA línea por opción, sin encabezados ni párrafos largos. "
-            "Termina con UNA sola línea: «⚠️ Derivar al médico si… » (breve)."
+            "Eres farmacéutico en España en el mostrador. Recomiendas productos SIN receta "
+            "(OTC/parafarmacia); NUNCA medicación financiada de receta. "
+            "PASO 1 — TRATAMIENTO DE PRIMERA LÍNEA: di primero el producto que un farmacéutico "
+            "vende de verdad para ese síntoma (alergia -> antihistamínico oral; mucosidad o "
+            "congestión -> descongestivo o mucolítico; dolor o fiebre -> analgésico; diarrea -> "
+            "loperamida; acidez -> antiácido; picadura -> antihistamínico tópico; etc.). "
+            "PASO 2: añade 1-2 complementos apropiados. "
+            "USA SOLO los productos de la lista «PRODUCTOS REALES» que te paso (son los que la "
+            "farmacia TIENE EN STOCK). Para CADA producto recomendado muéstralo con este "
+            "formato EXACTO (negritas): «**NOMBRE** · Calidad €: X € · Margen: Y% · CN **ZZZ** "
+            "· 📍**SIT** — para qué (corto)». Cuando haya 2-3 opciones válidas, SEÑALA cuál es "
+            "mejor en Calidad € y cuál en Margen. "
+            "Si en la lista NO hay nada clínicamente apropiado para ese síntoma, DILO claramente "
+            "('no lo tengo en stock') y nombra el tipo de producto necesario, SIN inventar CN "
+            "ni marcas. JAMÁS recomiendes algo que no encaje con el síntoma (nunca "
+            "anticonceptivos, antiedad, aparatos ni ortopedia por su margen). "
+            "Responde MUY BREVE: una línea por opción, sin párrafos largos. Termina con UNA "
+            "línea: «⚠️ Derivar al médico si… » (breve)."
         ),
-        messages=[{"role": "user", "content": (
-            ([{"type": "text", "text": contexto,
-               "cache_control": {"type": "ephemeral"}}] if contexto else [])
-            + [{"type": "text", "text":
-                f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
-                "receta)? Elige SOLO lo clínicamente adecuado para ese problema; usa el "
-                "margen únicamente para desempatar entre opciones igual de válidas."}]
-        )}],
+        messages=[{"role": "user", "content": user}],
     )
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
 
