@@ -22,7 +22,7 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI(title="Mostrador · Venta cruzada")
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
-MODELO = "claude-haiku-4-5-20251001"
+MODELO = "claude-sonnet-5"
 
 VENTA_CRUZADA = [
     {"cuando": "Antibiótico oral", "ofrece": "Probiótico", "motivo": "Repone la flora intestinal que el antibiótico daña y evita diarreas."},
@@ -76,7 +76,7 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
+            f"{p['producto']} [CN {p.get('cn','')}] (stock {p.get('stock','?')} ud, deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
             + (f", ubicación {p['situacion']}" if p.get('situacion') else "") + ")"
             for p in top_margen)
         contexto = (
@@ -93,13 +93,13 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
         model=MODELO,
-        max_tokens=500,
+        max_tokens=320,
         system=(
             "Eres farmacéutico en España, experto en venta cruzada RESPONSABLE (que "
             "aporta valor al paciente, nunca venta forzada). Dado un medicamento o "
-            "producto, propones 3-4 productos complementarios que tenga sentido ofrecer, "
-            "cada uno con un motivo clínico o práctico breve. Responde en español, en "
-            "viñetas cortas."
+            "producto, propones 3-4 productos complementarios que tenga sentido ofrecer. "
+            "Responde MUY BREVE: UNA línea por producto (nombre + motivo corto), sin "
+            "encabezados ni párrafos largos."
         ),
         messages=[{"role": "user", "content": (
             ([{"type": "text", "text": contexto,
@@ -118,7 +118,7 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
     contexto = ""
     if top_margen:
         items = "; ".join(
-            f"{p['producto']} [CN {p.get('cn','')}] (deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
+            f"{p['producto']} [CN {p.get('cn','')}] (stock {p.get('stock','?')} ud, deja {p.get('euro','?')} €/ud · {p.get('margen','?')}%, {p.get('categoria','')}"
             + (f", ubicación {p['situacion']}" if p.get('situacion') else "") + ")"
             for p in top_margen)
         contexto = (
@@ -136,7 +136,7 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
     cliente = anthropic.Anthropic(api_key=api_key)
     respuesta = cliente.messages.create(
         model=MODELO,
-        max_tokens=650,
+        max_tokens=420,
         system=(
             "Eres farmacéutico en España atendiendo en el mostrador. Ante un SÍNTOMA o "
             "patología LEVE de indicación farmacéutica, recomiendas productos SIN receta "
@@ -144,19 +144,25 @@ def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = Non
             "Para cada necesidad ofrece entre 2 y 3 OPCIONES alternativas válidas y, entre "
             "ellas, SEÑALA cuál es la mejor en Calidad € y cuál la mejor en Margen (el "
             "farmacéutico elige la que considere). Recomienda SIEMPRE algo apropiado, aunque "
-            "no esté en la lista de margen; nunca digas que no hay producto. Solo "
-            "productos clínicamente apropiados; nunca fuerces algo inadecuado. "
-            "SIEMPRE de forma responsable: al final indica brevemente los SIGNOS DE ALARMA por "
-            "los que hay que DERIVAR AL MÉDICO y no automedicar. Responde en español, en "
-            "viñetas cortas, con el nombre, CN y ubicación en NEGRITA: **NOMBRE** · Calidad €: "
-            "X € · Margen: Y% · CN **ZZZ** · 📍**SIT** -> para qué / cómo se usa."
+            "no esté en la lista de margen; nunca digas que no hay producto. "
+            "REGLA DE ORO: manda la ADECUACIÓN CLÍNICA, NO el margen. Ante un problema "
+            "agudo (golpe/hematoma, herida, quemadura, infección, dolor) recomienda lo que "
+            "de verdad ayuda (p. ej. frío + gel de heparinoide/árnica para un hematoma) y "
+            "NUNCA ofrezcas cosméticos, antiedad ni cremas caras por su margen. El margen "
+            "SOLO sirve para desempatar entre opciones clínicamente equivalentes. "
+            "Responde MUY BREVE y directo: SOLO las 2-3 opciones, UNA línea por opción, sin "
+            "encabezados ni secciones ni consejos largos. Cada línea con el nombre, CN y "
+            "ubicación en NEGRITA así: «**NOMBRE** · Calidad €: X € · Margen: Y% · CN **ZZZ** "
+            "· 📍**SIT** — para qué (muy corto)». Termina con UNA sola línea: «⚠️ Derivar al "
+            "médico si… » (breve)."
         ),
         messages=[{"role": "user", "content": (
             ([{"type": "text", "text": contexto,
                "cache_control": {"type": "ephemeral"}}] if contexto else [])
             + [{"type": "text", "text":
                 f"Cliente en el mostrador con: {sintoma}. ¿Qué le recomiendo (venta sin "
-                "receta), priorizando la calidad de euro y el margen?"}]
+                "receta)? Elige SOLO lo clínicamente adecuado para ese problema; usa el "
+                "margen únicamente para desempatar entre opciones igual de válidas."}]
         )}],
     )
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
