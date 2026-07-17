@@ -119,6 +119,21 @@ SINONIMOS = {
     "quemazon": ["botiquin"],
     "menopausia": ["menopausia"],
     "sofoco": ["menopausia"],
+    # clases de producto (sobre todo para el buscador por tipo)
+    "antihistamin": ["alergia"],
+    "mucolit": ["tos", "descongestivo nasal"],
+    "expectorante": ["tos"],
+    "antitusiv": ["tos"],
+    "analges": ["dolor oral", "dolorf"],
+    "antiinflam": ["dolor"],
+    "descongest": ["descongestivo nasal"],
+    "antiacid": ["antiacido"],
+    "antifung": ["hongos"],
+    "antisept": ["botiquin"],
+    "protector solar": ["solar"],
+    "probiotic": ["probiotico", "inmun"],
+    "antigripal": ["gripe", "descongestivo nasal"],
+    "gripal": ["gripe"],
 }
 
 # Palabras vacías para el emparejamiento por palabra suelta.
@@ -152,6 +167,32 @@ def buscar_candidatos(sintoma, limite=40):
         scored.append(((s_rel, s_efp, -(p.get("m", 0) or 0)), p))
     scored.sort(key=lambda x: x[0])
     return [p for _, p in scored[:limite]]
+
+
+def buscar_tipo(texto, limite=100):
+    """Buscador por TIPO/clase de producto: devuelve TODOS los del catálogo que
+    encajan, ordenados de mejor a peor Calidad € (para colocar balda y pedir)."""
+    cat = _cargar()
+    ns = _norm(texto)
+    terminos = set()
+    for clave, cats in SINONIMOS.items():
+        if re.search(r"\b" + re.escape(_norm(clave)), ns):
+            terminos.update(cats)
+    for w in re.findall(r"[a-zñ]{3,}", ns):
+        if w not in _STOP:
+            terminos.add(w)
+    if not terminos:
+        return []
+    scored = []
+    for p in cat:
+        cc = _norm(p.get("c", "")); nn = _norm(p.get("n", ""))
+        en_cat = any(t in cc for t in terminos)
+        if en_cat or any(t in nn for t in terminos):
+            # primero los que casan por CATEGORÍA (más precisos), luego mejor Calidad €
+            scored.append(((0 if en_cat else 1, -(p.get("e") or 0)), p))
+    scored.sort(key=lambda x: x[0])
+    return [p for _, p in scored[:limite]]
+
 
 def contexto_candidatos(prods):
     if not prods:

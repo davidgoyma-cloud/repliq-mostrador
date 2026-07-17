@@ -174,9 +174,19 @@ def _fmt(texto: str | None) -> str | None:
 def _ctx(**kw):
     base = {"cruzada": VENTA_CRUZADA, "top_margen": TOP_MARGEN,
             "reco": None, "error": None, "producto": "",
-            "reco_sint": None, "error_sint": None, "sintoma": ""}
+            "reco_sint": None, "error_sint": None, "sintoma": "",
+            "tipo": "", "tipo_res": None, "tipo_nores": False}
     base.update(kw)
     return base
+
+
+@app.post("/tipo", response_class=HTMLResponse)
+def tipo(request: Request, tipo: str = Form("")):
+    from retrieval import buscar_tipo
+    t = tipo.strip()
+    res = buscar_tipo(t) if t else []
+    return templates.TemplateResponse(request, "mostrador.html",
+        _ctx(tipo=t, tipo_res=res, tipo_nores=bool(t) and not res))
 
 
 @app.get("/", response_class=HTMLResponse)
