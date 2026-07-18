@@ -216,6 +216,28 @@ def buscar_por_terminos(terminos, limite=25):
     return [p for _, p in scored[:limite]]
 
 
+def buscar_similares(terminos, limite=10):
+    """Buscador de PARECIDOS: ordena por SIMILITUD (cuántos términos coinciden) y
+    luego por stock. NO usa margen ni Calidad € para ordenar."""
+    cat = _cargar()
+    terms = []
+    for t in terminos:
+        t = _norm(t).strip()
+        if len(t) >= 3 and t not in _STOP and t not in terms:
+            terms.append(t)
+    if not terms:
+        return []
+    scored = []
+    for p in cat:
+        txt = _norm(p.get("c", "") + " | " + p.get("n", ""))
+        overlap = sum(1 for t in terms if t in txt)
+        if overlap:
+            en_stock = 1 if (p.get("s") or 0) > 0 else 0
+            scored.append(((-overlap, -en_stock, -(p.get("s") or 0)), p))
+    scored.sort(key=lambda x: x[0])
+    return [p for _, p in scored[:limite]]
+
+
 def contexto_candidatos(prods):
     if not prods:
         return ""

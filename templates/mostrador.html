@@ -79,6 +79,54 @@
     </div>
     {% endif %}
 
+    <div class="border-t border-slate-200 pt-1"></div>
+
+    <!-- BUSCADOR DE PARECIDOS / EQUIVALENTES -->
+    <h2 class="font-bold text-slate-800 flex items-center gap-2">
+      <i data-lucide="repeat" class="w-5 h-5 text-brand-600"></i> ¿Piden algo que no tienes? Busca el parecido
+    </h2>
+    <form action="/parecido" method="post" class="flex gap-2">
+      <input name="parecido" value="{{ par_texto }}" autocomplete="off"
+             placeholder="Producto o CN que te piden (ej: Femmelife flora íntima, 209356...)"
+             class="flex-1 border-2 border-slate-200 rounded-xl px-4 py-3 text-lg focus:outline-none focus:border-brand-500">
+      <button class="flex items-center gap-2 text-lg text-white bg-brand-700 hover:bg-brand-800 px-5 py-3 rounded-xl font-semibold whitespace-nowrap">
+        <i data-lucide="search" class="w-5 h-5"></i> Buscar parecido
+      </button>
+    </form>
+    {% if par_err %}
+    <div class="bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3">{{ par_err }}</div>
+    {% endif %}
+    {% if par_res %}
+    <div class="bg-white rounded-2xl border-2 border-brand-200 shadow-sm p-5">
+      <h2 class="font-bold text-slate-800 mb-1 flex items-center gap-2">
+        <i data-lucide="repeat" class="w-4 h-4 text-brand-600"></i> Parecidos que TIENES a "{{ par_nombre }}"
+      </h2>
+      <p class="text-[11px] text-slate-400 mb-3">Ordenados por parecido. En <b class="text-brand-700">verde</b> los que tienes en stock.</p>
+      <div class="max-h-96 overflow-y-auto">
+        <table class="w-full text-left text-sm">
+          <thead>
+            <tr class="text-[11px] uppercase tracking-wider border-b border-slate-100 sticky top-0 bg-white">
+              <th class="pb-2 font-medium text-slate-400">Producto</th>
+              <th class="pb-2 font-medium text-slate-400">Categoría</th>
+              <th class="pb-2 font-medium text-right text-slate-400">Stock</th>
+              <th class="pb-2 font-medium text-right text-brand-700">Calidad €</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for p in par_res %}
+            <tr class="border-b border-slate-50">
+              <td class="py-2 text-slate-800">{{ p.n }}{% if p.u %} <span class="ml-1 align-middle text-[10px] font-mono text-slate-500 bg-slate-100 rounded px-1.5 py-0.5">📍{{ p.u }}</span>{% endif %} <span class="text-[10px] text-slate-400 font-mono">{{ p.cn }}</span></td>
+              <td class="py-2 text-slate-500">{{ p.c }}</td>
+              <td class="py-2 text-right"><span class="{% if p.s and p.s > 0 %}text-brand-700 font-bold{% else %}text-red-500{% endif %}">{{ p.s }}</span></td>
+              <td class="py-2 text-right text-slate-500">{% if p.e is not none %}{{ '%.2f'|format(p.e) }} €{% else %}—{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+
     {% if top_margen %}
     <div class="bg-white rounded-2xl border-2 border-brand-200 shadow-sm p-5">
       <h2 class="font-bold text-slate-800 mb-1 flex items-center gap-2">

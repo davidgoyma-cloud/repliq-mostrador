@@ -200,9 +200,52 @@ def _ctx(**kw):
     base = {"cruzada": VENTA_CRUZADA, "top_margen": TOP_MARGEN,
             "reco": None, "error": None, "producto": "",
             "reco_sint": None, "error_sint": None, "sintoma": "",
-            "tipo": "", "tipo_res": None, "tipo_nores": False}
+            "tipo": "", "tipo_res": None, "tipo_nores": False,
+            "par_texto": "", "par_nombre": "", "par_res": None, "par_err": None}
     base.update(kw)
     return base
+
+
+def _terminos_producto(nombre: str, api_key: str) -> list:
+    """Términos para encontrar productos EQUIVALENTES o del mismo tipo en el catálogo."""
+    import anthropic
+    try:
+        c = anthropic.Anthropic(api_key=api_key)
+        r = c.messages.create(
+            model=MODELO, max_tokens=120,
+            system=("Eres farmacéutico. Te doy el nombre de un producto. Devuelve SOLO términos "
+                    "para encontrar productos EQUIVALENTES o del mismo tipo en un catálogo de "
+                    "farmacia: principio activo, tipo/indicación, formato y marcas alternativas "
+                    "OTC en España. 6-10 términos separados por comas, sin frases."),
+            messages=[{"role": "user", "content": nombre}],
+        )
+        txt = "".join(b.text for b in r.content if b.type == "text")
+        return [t.strip() for t in re.split(r"[,\n;]+", txt) if t.strip()]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+@app.post("/parecido", response_class=HTMLResponse)
+def parecido(request: Request, parecido: str = Form("")):
+    from retrieval import buscar_similares
+    clave = os.getenv("ANTHROPIC_API_KEY")
+    entrada = parecido.strip()
+    nombre = entrada
+    par_res = par_err = None
+    if not entrada:
+        par_err = "Escribe el producto o CN que te piden."
+    elif not clave:
+        par_err = "Falta configurar la clave de IA (ANTHROPIC_API_KEY)."
+    else:
+        resuelto = resolver_producto(entrada)
+        nombre = resuelto or entrada          # si el CN no existe, usa el texto tal cual
+        terms = _terminos_producto(nombre, clave)
+        terms += re.findall(r"[A-Za-zñÑáéíóúÁÉÍÓÚ]{4,}", nombre)  # + palabras del propio nombre
+        par_res = buscar_similares(terms, limite=10)
+        if not par_res:
+            par_err = "No encuentro nada parecido en tu catálogo."
+    return templates.TemplateResponse(request, "mostrador.html",
+        _ctx(par_texto=entrada, par_nombre=nombre, par_res=par_res, par_err=par_err))
 
 
 @app.post("/tipo", response_class=HTMLResponse)
