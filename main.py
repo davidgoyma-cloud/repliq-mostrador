@@ -111,13 +111,38 @@ def venta_cruzada(producto: str, api_key: str, top_margen: list | None = None) -
     return "".join(b.text for b in respuesta.content if b.type == "text").strip()
 
 
+def _terminos_busqueda(sintoma: str, api_key: str) -> list:
+    """Pide a la IA términos de búsqueda (activos, tipos, marcas OTC) para el síntoma,
+    para encontrar el producto real en el catálogo aunque no esté en el mapa de palabras."""
+    import anthropic
+    try:
+        c = anthropic.Anthropic(api_key=api_key)
+        r = c.messages.create(
+            model=MODELO, max_tokens=120,
+            system=("Eres farmacéutico. Dado un síntoma, devuelve SOLO términos para buscar el "
+                    "producto en un catálogo de farmacia: principio activo, tipo de producto, "
+                    "formato y marcas OTC habituales en España. 6-10 términos separados por comas, "
+                    "sin frases ni explicaciones."),
+            messages=[{"role": "user", "content": sintoma}],
+        )
+        txt = "".join(b.text for b in r.content if b.type == "text")
+        return [t.strip() for t in re.split(r"[,\n;]+", txt) if t.strip()]
+    except Exception:  # noqa: BLE001
+        return []
+
+
 def recomendar_sintoma(sintoma: str, api_key: str, top_margen: list | None = None) -> str:
     """Recomienda OTC/parafarmacia para un síntoma leve, SOLO con productos que la
-    farmacia tiene en stock (búsqueda en el catálogo real)."""
+    farmacia tiene en stock. Combina búsqueda por palabras + términos que genera la IA."""
     import anthropic
-    from retrieval import buscar_candidatos, contexto_candidatos
+    from retrieval import buscar_candidatos, buscar_por_terminos, contexto_candidatos
 
-    ctx = contexto_candidatos(buscar_candidatos(sintoma, limite=40))
+    cands = buscar_candidatos(sintoma, limite=22)
+    vistos = {c["cn"] for c in cands}
+    for p in buscar_por_terminos(_terminos_busqueda(sintoma, api_key), limite=22):
+        if p["cn"] not in vistos:
+            cands.append(p); vistos.add(p["cn"])
+    ctx = contexto_candidatos(cands[:40])
     if ctx:
         user = ("PRODUCTOS REALES DE LA FARMACIA para este caso (OTC/parafarmacia, EN STOCK). "
                 "Usa SOLO estos; no inventes otros productos ni CN:\n" + ctx +

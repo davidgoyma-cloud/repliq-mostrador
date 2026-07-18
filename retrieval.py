@@ -194,6 +194,28 @@ def buscar_tipo(texto, limite=100):
     return [p for _, p in scored[:limite]]
 
 
+def buscar_por_terminos(terminos, limite=25):
+    """Busca en el catálogo por una lista de términos (principios activos, tipos,
+    marcas...). Prioriza coincidencia en el NOMBRE (más específica)."""
+    cat = _cargar()
+    terms = set()
+    for t in terminos:
+        t = _norm(t).strip()
+        if len(t) >= 3 and t not in _STOP:
+            terms.add(t)
+    if not terms:
+        return []
+    scored = []
+    for p in cat:
+        cc = _norm(p.get("c", "")); nn = _norm(p.get("n", ""))
+        en_nom = any(t in nn for t in terms)
+        en_cat = any(t in cc for t in terms)
+        if en_nom or en_cat:
+            scored.append(((0 if en_nom else 1, -(p.get("e") or 0)), p))
+    scored.sort(key=lambda x: x[0])
+    return [p for _, p in scored[:limite]]
+
+
 def contexto_candidatos(prods):
     if not prods:
         return ""
